@@ -1,0 +1,258 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\FunktionWin.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FUNKTIONWIN_DIALOG DIALOGEX 0, 0, 384, 17
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "FunktionWin"
+MENU IDR_MENU1
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Abbrechen",IDCANCEL,"Button",BS_OWNERDRAW,369,2,6,6
+END
+
+IDD_FW_INF DIALOGEX 0, 0, 195, 28
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "FunktionWin - Info"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDCANCEL,"Button",BS_OWNERDRAW | BS_LEFT | BS_FLAT,
+                    175,12,17,10
+    ICON            IDR_MAINFRAME,IDC_STATIC,3,5,21,20
+    LTEXT           "FunktionWin by Dietmar SCHRAUSSER",IDC_STATIC,34,5,128,
+                    8
+    LTEXT           "Compiled on",IDC_STATIC,34,14,40,8
+    LTEXT           "@",IDC_STATIC,122,14,8,8
+    EDITTEXT        IDC_DATE,76,14,45,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_TIME,133,14,40,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER | NOT WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT,180,15,7,6
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,3
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "CompanyName", "SCHRAUSSER\0"
+            VALUE "FileDescription", "\0"
+            VALUE "FileVersion", "1, 0, 0, 3\0"
+            VALUE "InternalName", "FunktionWin\0"
+            VALUE "LegalCopyright", "Dietmar Schrausser (C) 2009, 2010\0"
+            VALUE "OriginalFilename", "FunktionWin.EXE\0"
+            VALUE "ProductName", "FunktionWin \0"
+            VALUE "ProductVersion", "1, 0, 0, 0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FUNKTIONWIN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 375
+        BOTTOMMARGIN, 16
+    END
+
+    IDD_FW_INF, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 188
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 21
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\FunktionWin.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "Programm"
+    BEGIN
+        MENUITEM "Info",                        ID_PROGRAMM_INFO
+        MENUITEM SEPARATOR
+        MENUITEM "Beenden",                     ID_PROGRAMM_BEENDEN
+    END
+    POPUP "Wahrscheinlichkeits-Verteilung"
+    BEGIN
+        MENUITEM "Binomial-Funktion f(X=k|n)",  ID_WAHRSCHEINLICHKEITSFUNKTIONEN_BINOMIALFUNKTION
+
+        MENUITEM "Poisson-Funktion f(X=k|n,p)", ID_WAHRSCHEINLICHKEITSFUNKTIONEN_POISSONFUNKTION
+
+        MENUITEM "Geometrische-Funktion f(X=r|p)", 
+                                                ID_WAHRSCHEINLICHKEITSFUNKTIONEN_GEOMETRISCHEFUNKTION
+
+        MENUITEM "Hypergeometrische-Funktion f(X=k|n,K,N)", 
+                                                ID_WAHRSCHEINLICHKEITSFUNKTIONEN_HYPERGEOMETRISCHEFUNKTION
+
+        MENUITEM SEPARATOR
+        MENUITEM "Exakt binomialer 2-Felder Test f(X=b|b.c)", 
+                                                ID_BINOMIALTEST
+        MENUITEM "Exakt hypergeometrischer 4-Felder Test f(X=a|a,b,c,d) (Fisher EXACT) ", 
+                                                ID_WAHRSCHEINLICHKEITSFUNKTIONEN_HYPERGEOMETRISCHER4FELDERFISHEREXACTTEST
+
+    END
+    POPUP "Theta-Verteilung"
+    BEGIN
+        MENUITEM "z- Dichte Funktion f(x=z)",   ID_VERTEILUNGSFUNKTIONEN_NORMALVERTEILUNGSDICHTEFUNKTION
+
+        MENUITEM SEPARATOR
+        MENUITEM "z- Funktion F(x=z)",          ID_VERTEILUNGSFUNKTIONEN_NORMALVERTEILUNGSFUNKTION
+
+        MENUITEM "t- Funktion F(x=t)",          ID_VERTEILUNGSFUNKTIONEN_TFUNKTION
+
+        MENUITEM "Chi²- Funktion F(x=Chi²)",    ID_VERTEILUNGSFUNKTIONEN_CHIQUADRATFUNKTION
+
+        MENUITEM "F- Funktion F(x=F)",          ID_VERTEILUNGSFUNKTIONEN_FFUNKTION
+
+        MENUITEM SEPARATOR
+        MENUITEM "Effekt-Stärke",               ID_EPSILON
+    END
+    POPUP "Transformationen"
+    BEGIN
+        MENUITEM "Fisher-Z Funktion F(x=r)",    ID_TRANSFORMATIONEN_FISHERZFUNKTION
+
+        MENUITEM SEPARATOR
+        MENUITEM "Gamma F(x)=|¯",               ID_TRANSFORMATIONEN_GAMMA
+    END
+    MENUITEM "Dokumentation",               65535
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif
+#include "res\FunktionWin.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.deu\afxres.rc"          // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
