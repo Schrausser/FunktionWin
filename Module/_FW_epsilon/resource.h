@@ -1,0 +1,44 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Developer Studio generated include file.
+// Used by FWepsilon.rc
+//
+#define IDD_FWepsilon_DIALOG            102
+#define IDR_MAINFRAME                   128
+#define IDC_CMD                         1000
+#define IDC_MODUS                       1001
+#define IDC_X                           1002
+#define IDC_n                           1002
+#define IDC_c                           1002
+#define IDC_INFO                        1003
+#define IDC_NA                          1004
+#define IDC_n_                          1004
+#define IDC_b                           1004
+#define IDC_s                           1004
+#define IDC_PA                          1005
+#define IDC_k_                          1005
+#define IDC_a                           1005
+#define IDC_Q0                          1005
+#define IDC_LOG                         1006
+#define IDC_LOGP                        1007
+#define IDC_GRP                         1008
+#define IDC_qx                          1008
+#define IDC_CHECK_GRP                   1009
+#define IDC_K                           1010
+#define IDC_d                           1010
+#define IDC_q1                          1010
+#define IDC_CHECK_q1                    1011
+#define IDC_p                           1012
+#define IDC_df                          1013
+#define IDC_e                           1014
+#define IDC_CHECK_e                     1015
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        131
+#define _APS_NEXT_COMMAND_VALUE         32771
+#define _APS_NEXT_CONTROL_VALUE         1010
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif

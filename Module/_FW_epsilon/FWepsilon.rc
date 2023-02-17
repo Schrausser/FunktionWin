@@ -1,0 +1,251 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\FWepsilon.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FWepsilon_DIALOG DIALOGEX 0, 0, 258, 62
+STYLE DS_SYSMODAL | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "epsilon - Command Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "ausführen",IDOK,206,48,48,11,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "°",IDCANCEL,5,48,48,11,BS_LEFT,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CMD,5,9,47,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_TABSTOP,WS_EX_CLIENTEDGE
+    COMBOBOX        IDC_n,156,9,48,77,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "n",IDC_STATIC,158,0,8,8
+    PUSHBUTTON      "Info",IDC_INFO,56,48,47,11,0,WS_EX_STATICEDGE
+    COMBOBOX        IDC_Q0,56,9,48,77,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "Q0",IDC_STATIC,58,1,15,8
+    EDITTEXT        IDC_qx,205,9,47,13,ES_AUTOHSCROLL | ES_READONLY,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "x",IDC_CHECK_GRP,"Button",BS_AUTOCHECKBOX | BS_LEFT | 
+                    BS_PUSHLIKE | WS_TABSTOP,205,0,47,10,WS_EX_STATICEDGE
+    COMBOBOX        IDC_s,106,9,48,77,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "s",IDC_STATIC,108,1,8,8
+    PUSHBUTTON      "Log edit",IDC_LOGP,106,48,48,11,0,WS_EX_STATICEDGE
+    LTEXT           "Q1",IDC_STATIC,57,23,15,8
+    COMBOBOX        IDC_p,206,32,48,77,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP,WS_EX_CLIENTEDGE
+    LTEXT           "p-level",IDC_STATIC,208,24,35,8
+    COMBOBOX        IDC_df,156,32,48,77,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP,WS_EX_CLIENTEDGE
+    LTEXT           "-                 df",IDC_STATIC,158,24,47,8
+    EDITTEXT        IDC_q1,56,32,47,13,ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    CONTROL         "Q1",IDC_CHECK_q1,"Button",BS_AUTOCHECKBOX | BS_LEFT | 
+                    BS_PUSHLIKE | WS_TABSTOP,56,23,47,10,WS_EX_STATICEDGE
+    EDITTEXT        IDC_e,106,32,47,13,ES_AUTOHSCROLL | ES_READONLY,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "epsilon",IDC_CHECK_e,"Button",BS_AUTOCHECKBOX | BS_LEFT | 
+                    BS_PUSHLIKE | WS_TABSTOP,106,23,47,10,WS_EX_STATICEDGE
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "CompanyName", "SCHRAUSSER\0"
+            VALUE "FileDescription", "FWepsilon \0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "FWepsilon\0"
+            VALUE "LegalCopyright", "Dietmar Schrausser (C) 2010\0"
+            VALUE "OriginalFilename", "FWepsilon.EXE\0"
+            VALUE "ProductName", "FunktionWin\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FWepsilon_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 251
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\FWepsilon.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_FWepsilon_DIALOG DLGINIT
+BEGIN
+    IDC_n, 0x403, 2, 0
+0x0035, 
+    IDC_n, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_n, 0x403, 4, 0
+0x3031, 0x0030, 
+    IDC_n, 0x403, 5, 0
+0x3031, 0x3030, "\000" 
+    IDC_Q0, 0x403, 2, 0
+0x0031, 
+    IDC_Q0, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_Q0, 0x403, 4, 0
+0x3031, 0x0030, 
+    IDC_s, 0x403, 5, 0
+0x2e30, 0x3130, "\000" 
+    IDC_s, 0x403, 4, 0
+0x2e30, 0x0031, 
+    IDC_s, 0x403, 2, 0
+0x0031, 
+    IDC_s, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_s, 0x403, 4, 0
+0x3031, 0x0030, 
+    IDC_p, 0x403, 5, 0
+0x2e30, 0x3039, "\000" 
+    IDC_p, 0x403, 5, 0
+0x2e30, 0x3539, "\000" 
+    IDC_p, 0x403, 6, 0
+0x2e30, 0x3739, 0x0035, 
+    IDC_p, 0x403, 5, 0
+0x2e30, 0x3939, "\000" 
+    IDC_p, 0x403, 6, 0
+0x2e30, 0x3939, 0x0035, 
+    IDC_df, 0x403, 2, 0
+0x0031, 
+    IDC_df, 0x403, 2, 0
+0x0032, 
+    0
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif
+#include "res\FWepsilon.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.deu\afxres.rc"          // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
