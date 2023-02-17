@@ -1,0 +1,215 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\FWGamma.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FWGamma_DIALOG DIALOGEX 0, 0, 176, 39
+STYLE DS_SYSMODAL | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "GAMMA_Function - Command Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "ausführen",IDOK,123,26,48,11,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "°",IDCANCEL,5,26,64,11,BS_LEFT,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CMD,5,9,63,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_TABSTOP,WS_EX_CLIENTEDGE
+    COMBOBOX        IDC_MODUS,72,9,48,77,CBS_DROPDOWNLIST | WS_VSCROLL,
+                    WS_EX_CLIENTEDGE
+    COMBOBOX        IDC_X,123,9,48,77,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "Modus",IDC_STATIC,73,1,22,8
+    LTEXT           "X",IDC_STATIC,125,1,8,8
+    PUSHBUTTON      "Info",IDC_INFO,73,26,47,11,0,WS_EX_STATICEDGE
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "CompanyName", "SCHRAUSSER\0"
+            VALUE "FileDescription", "FWGamma \0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "FWGamma\0"
+            VALUE "LegalCopyright", "Dietmar Schrausser (C) 2009\0"
+            VALUE "OriginalFilename", "FWGamma.EXE\0"
+            VALUE "ProductName", "FunktionWin\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FWGamma_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 169
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 32
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\FWGamma.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_FWGamma_DIALOG DLGINIT
+BEGIN
+    IDC_MODUS, 0x403, 8, 0
+0xaf7c, 0x2028, 0x2078, 0x003d, 
+    IDC_MODUS, 0x403, 8, 0
+0x2878, 0x7c20, 0x20af, 0x003d, 
+    IDC_X, 0x403, 4, 0
+0x2e30, 0x0031, 
+    IDC_X, 0x403, 4, 0
+0x2e30, 0x0035, 
+    IDC_X, 0x403, 2, 0
+0x0031, 
+    IDC_X, 0x403, 2, 0
+0x0032, 
+    IDC_X, 0x403, 2, 0
+0x0033, 
+    IDC_X, 0x403, 2, 0
+0x0034, 
+    IDC_X, 0x403, 2, 0
+0x0035, 
+    IDC_X, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_X, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_X, 0x403, 4, 0
+0x3031, 0x0030, 
+    0
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif
+#include "res\FWGamma.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.deu\afxres.rc"          // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
