@@ -1,0 +1,235 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\FWHypergeometric.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FWHypergeometric_DIALOG DIALOGEX 0, 0, 321, 39
+STYLE DS_SYSMODAL | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Hypergeometric - Command Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "ausführen",IDOK,270,26,48,11,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "°",IDCANCEL,5,26,65,11,BS_LEFT,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CMD,5,9,64,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_TABSTOP,WS_EX_CLIENTEDGE
+    COMBOBOX        IDC_N,172,9,48,77,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "N",IDC_STATIC,174,1,8,8
+    PUSHBUTTON      "Info",IDC_INFO,73,26,47,11,0,WS_EX_STATICEDGE
+    COMBOBOX        IDC_k_,72,9,48,77,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "k",IDC_STATIC,74,1,15,8
+    PUSHBUTTON      "LOG edit",IDC_LOG,123,26,47,11,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "P edit",IDC_LOGP,173,26,47,11,0,WS_EX_STATICEDGE
+    EDITTEXT        IDC_GRP,270,9,47,13,ES_AUTOHSCROLL | ES_READONLY,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "Graph",IDC_CHECK_GRP,"Button",BS_AUTOCHECKBOX | BS_LEFT | 
+                    BS_PUSHLIKE | WS_TABSTOP,270,0,47,10,WS_EX_STATICEDGE
+    COMBOBOX        IDC_n_,122,9,48,77,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP,WS_EX_CLIENTEDGE
+    LTEXT           "n",IDC_STATIC,124,1,8,8
+    COMBOBOX        IDC_K,221,9,48,77,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "K",IDC_STATIC,223,1,8,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "CompanyName", "SCHRAUSSER\0"
+            VALUE "FileDescription", "FWHypergeometric \0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "FWHypergeometric\0"
+            VALUE "LegalCopyright", "Dietmar Schrausser (C) 2009\0"
+            VALUE "OriginalFilename", "FWHypergeometric.EXE\0"
+            VALUE "ProductName", "FunktionWin\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FWHypergeometric_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 314
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 32
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\FWHypergeometric.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_FWHypergeometric_DIALOG DLGINIT
+BEGIN
+    IDC_N, 0x403, 2, 0
+0x0031, 
+    IDC_N, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_N, 0x403, 4, 0
+0x3031, 0x0030, 
+    IDC_N, 0x403, 5, 0
+0x3031, 0x3030, "\000" 
+    IDC_k_, 0x403, 2, 0
+0x0031, 
+    IDC_k_, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_k_, 0x403, 4, 0
+0x3031, 0x0030, 
+    IDC_k_, 0x403, 5, 0
+0x3031, 0x3030, "\000" 
+    IDC_n_, 0x403, 2, 0
+0x0031, 
+    IDC_n_, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_n_, 0x403, 4, 0
+0x3031, 0x0030, 
+    IDC_n_, 0x403, 5, 0
+0x3031, 0x3030, "\000" 
+    IDC_K, 0x403, 2, 0
+0x0031, 
+    IDC_K, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_K, 0x403, 4, 0
+0x3031, 0x0030, 
+    IDC_K, 0x403, 5, 0
+0x3031, 0x3030, "\000" 
+    0
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif
+#include "res\FWHypergeometric.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.deu\afxres.rc"          // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
