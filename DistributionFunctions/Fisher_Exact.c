@@ -46,7 +46,7 @@ main(int argc, char *argv[])
 
 	//Theta0 = Hypergeometrische Wahrscheinlichkeit P0 der initialanordnung 
 	
-	//faktoriell zerlegung zur zahlengrössenminderung; ungemindert max n=114	
+	//faktoriell zerlegung zur zahlengrÃ¶ssenminderung; ungemindert max n=114	
 	P0=fakt(z1,F);		//printf("P0= %.0f\n",P0);
 	P0=P0*fakt(z2,F);	//printf("P0= %.0f\n",P0);
 	P0=P0*fakt(s1,F);	//printf("P0= %.0f\n",P0);
@@ -58,7 +58,7 @@ main(int argc, char *argv[])
 	P01=P01*(fakt(c,F));
 	P01=P01*(fakt(d,F));
 
-	P0=P0/(P01*pow(F,2));//nennermultiplikation wegen nfaktoriellzerlegugen Nenner=5=nZ+1
+	P0=P0/(P01*pow(F,2));//nennermultiplikation wegen n faktoriellzerlegugen Nenner=5=nZ+1
 
 
 	//p exact einseitig 
@@ -148,7 +148,7 @@ main(int argc, char *argv[])
 	min_ad=d;if(a<d)min_ad=a;
 	for (iLauf=min_ad; iLauf>=0; iLauf--)//a-d -, b-c +
 	{
-		//Theta i =  Hypergeometrische Wahrscheinlichkeit Pi für jede mögliche anordnung mit gleichen randhäufigkeiten
+		//Theta i =  Hypergeometrische Wahrscheinlichkeit Pi fÃ¼r jede mÃ¶gliche anordnung mit gleichen randhÃ¤ufigkeiten
 		
 		P10=fakt(z1,F);
 		P10=P10*fakt(z2,F);
@@ -184,7 +184,7 @@ main(int argc, char *argv[])
 	min_ad=c;if(b<c)min_ad=b;
 	for (iLauf=1; iLauf<=min_ad; iLauf++)//a-d +, b-c -
 	{
-		//Theta i =  Hypergeometrische Wahrscheinlichkeit Pi für jede mögliche anordnung mit gleichen randhäufigkeiten
+		//Theta i =  Hypergeometrische Wahrscheinlichkeit Pi fÃ¼r jede mÃ¶gliche anordnung mit gleichen randhÃ¤ufigkeiten
 		
 		P10=fakt(z1,F);
 		P10=P10*fakt(z2,F);
@@ -230,7 +230,7 @@ main(int argc, char *argv[])
 
 		Pmax=P_vtl[1];for(kLauf=1; kLauf<index; kLauf++)if(Pmax<P_vtl[kLauf])Pmax=P_vtl[kLauf];//maximal p
 		
-		printf("\nHypergeometric P disribution\n\n");//P verteilungspraphik
+		printf("\nHypergeometric P disribution\n\n");//P verteilungsgraphik
 		for(kLauf=1; kLauf<index; kLauf++)
 		{
 			if(P_vtl[kLauf]>0.0001)//graphik wenn pi > 0.0001
@@ -312,34 +312,34 @@ void _profil()
 
 
 
-/* alternativ: p exact zweiseitig  über gesamtschleifenprozedur 
-	for (iLauf=0; iLauf<n; iLauf++)//schleife über a
+/* alternativ: p exact zweiseitig  Ã¼ber gesamtschleifenprozedur 
+	for (iLauf=0; iLauf<n; iLauf++)//schleife Ã¼ber a
 	{
-		for (jLauf=0; jLauf<n; jLauf++)//schleife über b
+		for (jLauf=0; jLauf<n; jLauf++)//schleife Ã¼ber b
 		{
-			for (kLauf=0; kLauf<n; kLauf++)//schleife über c
+			for (kLauf=0; kLauf<n; kLauf++)//schleife Ã¼ber c
 			{
-				for (lLauf=0; lLauf<n; lLauf++)//schleife über d
+				for (lLauf=0; lLauf<n; lLauf++)//schleife Ã¼ber d
 				{
 					a1=iLauf+jLauf; 
 					a2=kLauf+lLauf; 
 					b1=iLauf+kLauf;
 					b2=jLauf+lLauf;
 
-				    if(a1== z1 && a2 ==z2 && b1 ==s1 &&b2==s2) //bei gleichen randhäufigkeiten
+				    if(a1== z1 && a2 ==z2 && b1 ==s1 &&b2==s2) //bei gleichen randhÃ¤ufigkeiten
 					 if ((iLauf+ jLauf!=0) &&
 						 (kLauf+ lLauf!=0) &&
 						 (iLauf+ kLauf!=0) &&
 						 (jLauf+ lLauf!=0) )
 					{
-						//Theta i =  Hypergeometrische Wahrscheinlichkeit Pi für jede mögliche anordnung mit gleichen randhäufigkeiten
+						//Theta i =  Hypergeometrische Wahrscheinlichkeit Pi fÃ¼r jede mÃ¶gliche anordnung mit gleichen randhÃ¤ufigkeiten
 						Pi= (fakt(a1)*fakt(a2)*fakt(b1)*fakt(b2))/(fakt(n)*fakt(iLauf)*fakt(jLauf)*fakt(kLauf)*fakt(lLauf));
 						
 						if (Pi <= P0 + 0.000000001 ) { P_+=Pi;zlr++;} //P0 bedingte summierung von Pi zu P_
 						              /*korrektur zur fliesskommainkonsistenz*/
 					
 					    //i++;
-						//anzahl aller möglichen anordnungen mit gleichen randhäufigkeiten
+						//anzahl aller mÃ¶glichen anordnungen mit gleichen randhÃ¤ufigkeiten
 						
 						//printf("\n%i %i\n%i %i\tP%i= %.3f P_= %.3f\n",iLauf,jLauf,kLauf,lLauf, i,Pi, P_);
 				//	}
