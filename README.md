@@ -1,2 +1,2 @@
 # FunktionWin
-Graphical user interface for distribution functions.
+Graphical MS Windows user interface for distribution functions.
