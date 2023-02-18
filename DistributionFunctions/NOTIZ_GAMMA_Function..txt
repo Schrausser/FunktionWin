@@ -1,9 +1,0 @@
-GAMMA_Function by Dietmar SCHRAUSSER 2009
-
-------------------------------------
-Usage: GAMMA_Function [mode] [value]
- [mode] ..... (1)F(x)?¦¯ (2)F'(¦¯)?x
- [value] .................... x / ¦¯
-------------------------------------
-GAMMA_Function by Dietmar Schrausser
-compiled on Dec 18 2009 @ 08:21:08
