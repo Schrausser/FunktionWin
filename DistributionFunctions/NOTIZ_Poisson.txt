@@ -1,0 +1,11 @@
+Poisson by Dietmar SCHRAUSSER 2009
+
+----------------------------------
+Usage: Poisson [p] [k] [n] [[1]]
+ [p] ..... probability of event A
+ [k] .............. n of events A
+ [n] ................ n of trials
+ [1] ............ (1) full output
+----------------------------------
+Poisson (c) SCHRAUSSER 2009
+compiled on Dec 21 2009 @ 23:19:41

@@ -1,0 +1,9 @@
+z_Function by Dietmar SCHRAUSSER 2009
+
+----------------------------------
+Usage: z_Function [mode] [x]
+ [mode] ..... (1)Fx=p?z (2)Fy=z?p
+ [x] ............ p-value/z-value
+----------------------------------
+z_Function by Dietmar Schrausser
+compiled on Dec 18 2009 @ 07:38:31

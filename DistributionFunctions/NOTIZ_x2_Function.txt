@@ -1,0 +1,10 @@
+x2_Function by Dietmar SCHRAUSSER 2010
+
+----------------------------------
+Usage: x2_Function [mode] [x] [n]
+ [mode] .... (1)Fx=p?x² (2)Fy=x²?p
+ [x] ............ p-value/x²-value
+ [n] .................. n of cases
+----------------------------------
+x2_Function by Dietmar Schrausser
+compiled on Apr 10 2010 @ 01:01:29

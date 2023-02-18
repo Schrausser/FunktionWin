@@ -1,0 +1,10 @@
+GAMMA by Dietmar SCHRAUSSER 2009
+
+---------------------------------
+Usage: GAMMA [n] [input] [output]
+ [n] ................. n of cases
+ [input] ............. input file
+ [output] ........... output file
+---------------------------------
+GAMMA by Dietmar Schrausser
+compiled on Sep 30 2009 @ 07:05:49

@@ -1,0 +1,10 @@
+Binomial_T by Dietmar SCHRAUSSER 2010
+
+--------------------------------
+Usage: Binomial_T [b] [c] [[1]]
+ [b] ............. cell count b
+ [c] ............. cell count c
+ [1] .......... (1) full output
+--------------------------------
+Binomial_T (c) SCHRAUSSER 2010
+compiled on Apr 26 2010 @ 17:05:40

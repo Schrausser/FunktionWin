@@ -1,0 +1,11 @@
+z_Dichte by Dietmar SCHRAUSSER 2009
+
+----------------------------------------------------
+Gebrauch: z_Dichte [modus] [wert] [[f]]
+ [modus] ............. (1)fx=z?d (2)fy=d?z (3)ƒx=z?p
+                       (4)ƒ'p?z  (5)ƒ'p?d  (6)ƒy=d?p
+ [wert] .............. z-Wert/z-Dichte/Prozentrang p
+ [f] .................... (1)z-Dichte Funktionsgraph
+----------------------------------------------------
+z_Dichte von Dietmar Schrausser, (c) SCHRAUSSER 2009
+compiliert am Dec 18 2009 @ 12:26:00

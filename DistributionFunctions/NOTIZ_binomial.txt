@@ -1,0 +1,11 @@
+Binomial by Dietmar SCHRAUSSER 2009
+
+----------------------------------
+Usage: Binomial [p] [k] [n] [[1]]
+ [p] ..... probability of event A
+ [k] .............. n of events A
+ [n] ................ n of trials
+ [1] ............ (1) full output
+----------------------------------
+Binomial (c) SCHRAUSSER 2009
+compiled on Dec 21 2009 @ 08:51:14

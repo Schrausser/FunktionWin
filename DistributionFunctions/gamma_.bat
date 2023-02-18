@@ -1,0 +1,1 @@
+gamma 496 gamma_in.asc gamma_out.asc

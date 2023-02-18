@@ -1,0 +1,9 @@
+Fisher_Z by Dietmar SCHRAUSSER 2009
+
+---------------------------------
+Usage: Fisher_Z [mode] [x]
+ [mode] ......... (1)Ér?Z (2)ÉZ?r
+ [x] ............ r-value/Z-value
+---------------------------------
+Fisher_Z by Dietmar Schrausser
+compiled on Dec 17 2009 @ 01:06:18

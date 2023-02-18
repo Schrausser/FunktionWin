@@ -1,0 +1,10 @@
+t_Function by Dietmar SCHRAUSSER 2009
+
+---------------------------------
+Usage: t_Function [mode] [x] [n]
+ [mode] ..... (1)Fx=p?t (2)Fy=t?p
+ [x] ............ p-value/t-value
+ [n] ................. n of cases
+---------------------------------
+t_Function by Dietmar Schrausser
+compiled on Dec 20 2009 @ 01:57:40

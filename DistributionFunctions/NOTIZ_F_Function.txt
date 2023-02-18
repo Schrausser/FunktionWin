@@ -1,0 +1,11 @@
+F_Function by Dietmar SCHRAUSSER 2009
+
+--------------------------------------
+Usage: F_Function [mode] [x] [n1] [n2]
+ [mode] .......... (1)Fx=p?F (2)Fy=F?p
+ [x] ................... p-Wert/F-Wert
+ [n1] ............................. n1
+ [n2] ............................. n2
+--------------------------------------
+F_Function by Dietmar Schrausser
+compiled on Dec 20 2009 @ 01:50:05

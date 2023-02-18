@@ -1,0 +1,9 @@
+Fisher_Exact by Dietmar SCHRAUSSER 2009
+
+-----------------------------------------
+Usage: Fisher_Exact [a] [b] [c] [d] [[1]]
+ [a][b][c][d] ....... cell counts a,b,c,d
+ [1] .....................(1) full output
+-----------------------------------------
+Fisher_Exact (c) SCHRAUSSER 2009
+compiled on Apr 26 2010 @ 18:19:01

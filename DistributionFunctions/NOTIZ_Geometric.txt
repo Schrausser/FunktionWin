@@ -1,0 +1,10 @@
+Geometric by Dietmar SCHRAUSSER 2009
+
+----------------------------------
+Usage: Geometric [p] [r+1] [[1]]
+ [p] ..... probability of event A
+ [r+1] .............. n of trials
+ [1] ............ (1) full output
+----------------------------------
+Geometric (c) SCHRAUSSER 2009
+compiled on Dec 21 2009 @ 09:46:49
