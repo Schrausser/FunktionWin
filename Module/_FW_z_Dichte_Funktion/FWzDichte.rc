@@ -1,0 +1,253 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\FWzDichte.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FWzDichte_DIALOG DIALOGEX 0, 0, 184, 39
+STYLE DS_SYSMODAL | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "z_Dichte - Command Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "ausführen",IDOK,104,26,76,11,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "°",IDCANCEL,5,26,46,11,BS_LEFT,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CMD,5,9,45,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_TABSTOP,WS_EX_CLIENTEDGE
+    COMBOBOX        IDC_MODUS,53,9,48,77,CBS_DROPDOWNLIST | WS_VSCROLL,
+                    WS_EX_CLIENTEDGE
+    COMBOBOX        IDC_X,104,9,48,77,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "Modus",IDC_STATIC,54,1,22,8
+    LTEXT           "X",IDC_STATIC,106,1,8,8
+    PUSHBUTTON      "Info",IDC_INFO,54,26,47,11,0,WS_EX_STATICEDGE
+    CONTROL         "Graph",IDC_CHECK_GRP,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE,154,0,25,10,WS_EX_STATICEDGE
+    EDITTEXT        IDC_GRP,154,10,25,12,ES_AUTOHSCROLL | ES_READONLY,
+                    WS_EX_CLIENTEDGE
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "CompanyName", "SCHRAUSSER\0"
+            VALUE "FileDescription", "FWzDichte \0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "FWzDichte\0"
+            VALUE "LegalCopyright", "Dietmar Schrausser (C) 2009\0"
+            VALUE "OriginalFilename", "FWzDichte.EXE\0"
+            VALUE "ProductName", "FunktionWin\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FWzDichte_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 177
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 32
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\FWzDichte.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_FWzDichte_DIALOG DLGINIT
+BEGIN
+    IDC_MODUS, 0x403, 7, 0
+0x2864, 0x7a20, 0x3d20, "\000" 
+    IDC_MODUS, 0x403, 7, 0
+0x287a, 0x6420, 0x3d20, "\000" 
+    IDC_MODUS, 0x403, 7, 0
+0x2870, 0x7a20, 0x3d20, "\000" 
+    IDC_MODUS, 0x403, 7, 0
+0x287a, 0x7020, 0x3d20, "\000" 
+    IDC_MODUS, 0x403, 7, 0
+0x2864, 0x7020, 0x3d20, "\000" 
+    IDC_MODUS, 0x403, 7, 0
+0x2870, 0x6420, 0x3d20, "\000" 
+    IDC_X, 0x403, 3, 0
+0x332d, "\000" 
+    IDC_X, 0x403, 5, 0
+0x322d, 0x352e, "\000" 
+    IDC_X, 0x403, 3, 0
+0x322d, "\000" 
+    IDC_X, 0x403, 5, 0
+0x312d, 0x352e, "\000" 
+    IDC_X, 0x403, 3, 0
+0x312d, "\000" 
+    IDC_X, 0x403, 5, 0
+0x302d, 0x352e, "\000" 
+    IDC_X, 0x403, 2, 0
+0x0030, 
+    IDC_X, 0x403, 6, 0
+0x2e30, 0x3030, 0x0031, 
+    IDC_X, 0x403, 5, 0
+0x2e30, 0x3130, "\000" 
+    IDC_X, 0x403, 4, 0
+0x2e30, 0x0031, 
+    IDC_X, 0x403, 4, 0
+0x2e30, 0x0032, 
+    IDC_X, 0x403, 4, 0
+0x2e30, 0x0033, 
+    IDC_X, 0x403, 4, 0
+0x2e30, 0x0034, 
+    IDC_X, 0x403, 4, 0
+0x2e30, 0x0035, 
+    IDC_X, 0x403, 4, 0
+0x2e30, 0x0036, 
+    IDC_X, 0x403, 4, 0
+0x2e30, 0x0037, 
+    IDC_X, 0x403, 4, 0
+0x2e30, 0x0038, 
+    IDC_X, 0x403, 4, 0
+0x2e30, 0x0039, 
+    IDC_X, 0x403, 2, 0
+0x0031, 
+    IDC_X, 0x403, 4, 0
+0x2e31, 0x0035, 
+    IDC_X, 0x403, 2, 0
+0x0032, 
+    IDC_X, 0x403, 4, 0
+0x2e32, 0x0035, 
+    IDC_X, 0x403, 2, 0
+0x0033, 
+    0
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif
+#include "res\FWzDichte.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.deu\afxres.rc"          // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
