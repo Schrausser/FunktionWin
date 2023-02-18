@@ -1,0 +1,36 @@
+--------------------Configuration: FWPoisson - Win32 Debug--------------------
+Begining build with project "D:\_EIGENEDATEIEN_\1_LAUFENDES\1_SYSTEM\3_C_PROGRAMME\_Ip_\_Verteilungs_Funktionen_\_FunktionWin_\Module\_FW_Poisson_\FWPoisson.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/FWPoisson.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x407 /fo"Debug/FWPoisson.res" /d "_DEBUG" /d "_AFXDLL" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/FWPoisson.bsc" "
+			"COFF Linker for 80x86" with flags "/nologo /subsystem:windows /incremental:yes /pdb:"Debug/FWPoisson.pdb" /debug /machine:I386 /out:"Debug/FWPoisson.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating command line "rc.exe /l 0x407 /fo"Debug/FWPoisson.res" /d "_DEBUG" /d "_AFXDLL" "D:\_EIGENEDATEIEN_\1_LAUFENDES\1_SYSTEM\3_C_PROGRAMME\_Ip_\_Verteilungs_Funktionen_\_FunktionWin_\Module\_FW_Poisson_\FWPoisson.rc"" 
+Creating temp file "c:\temp\RSP1AC7.tmp" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/FWPoisson.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\_EIGENEDATEIEN_\1_LAUFENDES\1_SYSTEM\3_C_PROGRAMME\_Ip_\_Verteilungs_Funktionen_\_FunktionWin_\Module\_FW_Poisson_\FWPoisson.cpp"
+"D:\_EIGENEDATEIEN_\1_LAUFENDES\1_SYSTEM\3_C_PROGRAMME\_Ip_\_Verteilungs_Funktionen_\_FunktionWin_\Module\_FW_Poisson_\FWPoissonDlg.cpp"
+>
+Creating command line "cl.exe @c:\temp\RSP1AC7.tmp" 
+Creating temp file "c:\temp\RSP1AC8.tmp" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/FWPoisson.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\_EIGENEDATEIEN_\1_LAUFENDES\1_SYSTEM\3_C_PROGRAMME\_Ip_\_Verteilungs_Funktionen_\_FunktionWin_\Module\_FW_Poisson_\StdAfx.cpp"
+>
+Creating command line "cl.exe @c:\temp\RSP1AC8.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/FWPoisson.pdb" /debug /machine:I386 /out:"Debug/FWPoisson.exe" /pdbtype:sept  .\Debug\FWPoisson.obj .\Debug\FWPoissonDlg.obj .\Debug\StdAfx.obj .\Debug\FWPoisson.res" 
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+FWPoisson.cpp
+FWPoissonDlg.cpp
+Generating Code...
+Linking...
+
+
+
+FWPoisson.exe - 0 error(s), 0 warning(s)
