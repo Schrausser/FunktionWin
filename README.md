@@ -1,4 +1,6 @@
 # FunktionWin
+![figure.\label{pic0}](FunktionWin.png)
+
 Graphical MS Windows user interface for distribution functions.
 
 ### Screenshots
