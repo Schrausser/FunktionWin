@@ -1,7 +1,7 @@
 # FunktionWin
 ![figure.\label{pic0}](FunktionWin.png)
 
-Graphical MS Windows user interface for distribution functions.
+Graphical MS Windows user interface for `ConsoleApp_DistributionFunctions` (Schrausser, 2023).
 
 ### Screenshots
 
@@ -24,3 +24,7 @@ Graphical MS Windows user interface for distribution functions.
 
 
 ![figure.\label{pic7}](pic7.jpg)
+
+### References
+
+Schrausser, D. G. (2023). *Schrausser/ConsoleApp_DistributionFunctions: Console applicationes for distribution functions* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7664141
