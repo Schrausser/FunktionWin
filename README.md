@@ -29,7 +29,7 @@ The fundamental *binomial distribution* was derived by Bernoulli (1713), s. Schn
 
 *Gamma*, to solve the problem of *extending* the *factorial* to *non-integer* arguments, was first considered in a letter from Bernoulli to Goldbach (Bernoulli, 1729), introduced later by Euler (1738).
 
-Helmert (1876) first described the *Chi squared distribution*, independently rediscovered by Pearson (1900), c.f. also Elderton (1902), Pearson (1914, pp. xxxi–xxxiii, 26–28, Table XII) or Plackett (1983).
+Helmert (1876) first described the *Chi squared distribution*, independently rediscovered by Pearson (1900), c.f. also Elderton (1902), Pearson (1914) or Plackett (1983).
 
 The *t-distribution* was first derived by Lüroth (1876), later in a more general form defined as *Pearson Type IV* (Pearson, 1895), commonly known as *Student's t-distribution*, from William Sealy Gosset (1908), for the *F-distribution* see Fisher (1924).
 
