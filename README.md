@@ -33,7 +33,7 @@ Helmert (1876) first described the *Chi squared distribution*, independently red
 
 The *t-distribution* was first derived by Lüroth (1876), later in a more general form defined as *Pearson Type IV* (Pearson, 1895), commonly known as *Student's t-distribution*, from William Sealy Gosset (1908), for the *F-distribution* see Fisher (1924).
 
-Fisher (1922, 1954) described his *Fisher Exact test*, see Agresti (1992), statistical *power* and *effect size* (Cohen, 1977, 1992) helped to layed foundations for statistical meta-analysis and methods of estimation statistics, see e.g. Borenstein et al. (2001) for related software applications. 
+Fisher (1922, 1954) described his *Fisher Exact test*, see Agresti (1992), statistical *power* and *effect size* (Cohen, 1977, 1992) helped to lay foundations for statistical meta-analysis and methods of estimation statistics, see e.g. Borenstein et al. (2001) for related software applications. 
 
 ### References
 
