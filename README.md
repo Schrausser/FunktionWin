@@ -1,9 +1,21 @@
 # FunktionWin
 ![figure.\label{pic0}](FunktionWin.png)
 
-Graphical MS Windows user interface for `ConsoleApp_DistributionFunctions` (Schrausser, 2024).
+Graphical MS Windows user interface for `ConsoleApp_DistributionFunctions` (Schrausser, 2024).  
 
-### Screenshots
+The following functions were realized:
+
+### Wahrscheinlichkeits-Verteilung (probability distribution)
+
+- Binomial-Funktion $f(X=k|n)$  
+- Poisson-Funktion $f(X=k|n,p)$  
+- Geometrische-Funktion $f(X=r|p)$  
+- Hypergeometrische-Funktion $f(X=k|n,K,N)$  
+- Exakt binomialer 2-Felder Test $f(X=b|b,c)$  
+- Exakt hypergeometrischer 4-Felder Test $f(X=a|a,b,c,d)$  
+*Fisher Exact* (Fisher, 1922, 1954; s. Agresti, 1992).  
+
+#### Screenshots probability distribution
 
 ![figure.\label{pic1}](pic1.jpg)
 
@@ -19,21 +31,34 @@ Graphical MS Windows user interface for `ConsoleApp_DistributionFunctions` (Schr
 
 ![figure.\label{pic5}](pic5.jpg)
 
+The fundamental *binomial distribution* was derived by Bernoulli (1713), s. Schneider (2005a) and above all De Moivre (1711, 1718) with the discovery of the first instance of central limit theorem, to *approximate* the *binomial* distribution with the *normal* distribution, further developed by Gauss (1809, 1823), see Hahn (1970), Hald (1990) or Schneider (2005b).
+
+### Theta-Verteilung $\theta$ (characteristic value or $\theta$ distribution)
+- z-Dichte Funktion $f(x=z)$  
+- z-Funktion $F(x=z)$  
+- t-Funktion $F(x=t)$  
+- $\chi$²- Funktion $F(x=\chi²)$  
+- F- Funktion $F(x=F)$   
+- Effekt-Stärke $\epsilon$  
+
+#### Screenshots $\epsilon$
 
 ![figure.\label{pic6}](pic6.jpg)
 
 
 ![figure.\label{pic7}](pic7.jpg)
 
-The fundamental *binomial distribution* was derived by Bernoulli (1713), s. Schneider (2005a) and above all De Moivre (1711, 1718) with the discovery of the first instance of central limit theorem, to *approximate* the *binomial* distribution with the *normal* distribution, further developed by Gauss (1809, 1823), see Hahn (1970), Hald (1990) or Schneider (2005b).
+The *t-distribution* was first derived by Lüroth (1876), later in a more general form defined as *Pearson Type IV* (Pearson, 1895), commonly known as *Student's t-distribution*, from William Sealy Gosset (1908).
 
-*Gamma*, to solve the problem of *extending* the *factorial* to *non-integer* arguments, was first considered in a letter from Bernoulli to Goldbach (Bernoulli, 1729), introduced later by Euler (1738).
+Helmert (1876) first described the *chi squared distribution*, independently rediscovered by Pearson (1900), c.f. also Elderton (1902), Pearson (1914) or Plackett (1983), for the *F-distribution* see Fisher (1924).
 
-Helmert (1876) first described the *Chi squared distribution*, independently rediscovered by Pearson (1900), c.f. also Elderton (1902), Pearson (1914) or Plackett (1983).
+Statistical *power* and *effect size* $\epsilon$  (Cohen, 1977, 1992) layed foundations for statistical meta-analysis and methods of estimation statistics, see e.g. Borenstein et al. (2001) for related software applications. 
 
-The *t-distribution* was first derived by Lüroth (1876), later in a more general form defined as *Pearson Type IV* (Pearson, 1895), commonly known as *Student's t-distribution*, from William Sealy Gosset (1908), for the *F-distribution* see Fisher (1924).
+### Transformationen (transformation functions)
+- Fisher-Z Funktion $F(x=r)$  
+- Gamma $F(x)=\Gamma$
 
-Fisher (1922, 1954) described his *Fisher Exact test*, see Agresti (1992), statistical *power* and *effect size* (Cohen, 1977, 1992) helped to lay foundations for statistical meta-analysis and methods of estimation statistics, see e.g. Borenstein et al. (2001) for related software applications. 
+*Gamma* $\Gamma$, to solve the problem of *extending* the *factorial* to *non-integer* arguments, was first considered in a letter from Bernoulli to Goldbach (Bernoulli, 1729), introduced later by Euler (1738) - of fundamental definitional importance for the formulation of *approximate probability distribution* functions such as $\chi$², $t$ or $F$.
 
 ### References
 
