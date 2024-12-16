@@ -73,6 +73,8 @@ Hald, A. (1990). De Moivre and the Doctrine of Chances, 1718, 1738, and 1756. 
 
 Helmert, F. R. (1876). Ueber Die Wahrscheinlichkeit Der Potenzsummen Der Beobachtungsfehler Und Über Einige Damit Im Zusammenhange Stehende Fragen. *Zeitschrift Für Mathematik Und Physik 21*: 192–219. https://gdz.sub.uni-goettingen.de/id/PPN599415665_0021.
 
+Lüroth, J. (1876). Vergleichung von Zwei Werthen Des Wahrscheinlichen Fehlers. *Astronomische Nachrichten 87* (14): 209–20. https://doi.org/10.1002/asna.18760871402.
+
 Pearson, K. (1895). Contributions to the Mathematical Theory of Evolution. II. Skew Variation in Homogeneous Material. *Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 186*: 343–414. https://doi.org/10.1098/rsta.1895.0010.
 
 ———. (1900). X. On the criterion that a given system of deviations from the probable in the case of a correlated system of variables is such that it can be reasonably supposed to have arisen from random sampling. *The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science 50* (302): 157–75. https://doi.org/10.1080/14786440009463897.
