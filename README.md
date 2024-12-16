@@ -25,7 +25,7 @@ Graphical MS Windows user interface for `ConsoleApp_DistributionFunctions` (Schr
 
 ![figure.\label{pic7}](pic7.jpg)
 
-The fundamental *binomial distribution* was derived by Bernoulli (1713), s. Schneider (2005a, pp. 88-104) and above all De Moivre (1711, 1718) with the discovery of the first instance of central limit theorem, to *approximate* the *binomial* distribution with the *normal* distribution, further developed by Gauss (1809, 1823), see Hahn (1970), Hald (1990, pp. 397-424) or Schneider (2005b, pp. 105-120).
+The fundamental *binomial distribution* was derived by Bernoulli (1713), s. Schneider (2005a) and above all De Moivre (1711, 1718) with the discovery of the first instance of central limit theorem, to *approximate* the *binomial* distribution with the *normal* distribution, further developed by Gauss (1809, 1823), see Hahn (1970), Hald (1990) or Schneider (2005b).
 
 *Gamma*, to solve the problem of *extending* the *factorial* to *non-integer* arguments, was first considered in a letter from Bernoulli to Goldbach (Bernoulli, 1729), introduced later by Euler (1738).
 
