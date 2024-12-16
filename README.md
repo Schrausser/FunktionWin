@@ -1,7 +1,7 @@
 # FunktionWin
 ![figure.\label{pic0}](FunktionWin.png)
 
-Graphical MS Windows user interface for `ConsoleApp_DistributionFunctions` (Schrausser, 2023).
+Graphical MS Windows user interface for `ConsoleApp_DistributionFunctions` (Schrausser, 2024).
 
 ### Screenshots
 
@@ -83,4 +83,4 @@ Schneider, I. (2005a). Chapter 6 - Jakob Bernoulli, Ars conjectandi (1713). In 
 
 ———. (2005b). Chapter 7 -Abraham De Moivre, The Doctrine of Chances (1718, 1738, 1756). In *Landmark Writings in Western Mathematics 1640-1940*, edited by Grattan-Guinness, I., Cooke, R., Corry, L., Crépel, P., & Guicciardini, N., 105–20. Amsterdam: Elsevier Science. https://doi.org/10.1016/B978-044450871-3/50087-5.
 
-Schrausser, D. G. (2023). *Schrausser/ConsoleApp_DistributionFunctions: Console applicationes for distribution functions* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7664141.
+Schrausser, D. G. (2024). *Schrausser/ConsoleApp_DistributionFunctions: Console applicationes for distribution functions* (v1.5.0). Zenodo. https://doi.org/10.5281/zenodo.7664141.
