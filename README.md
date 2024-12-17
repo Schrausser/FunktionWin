@@ -12,8 +12,7 @@ The following functions were realized:
 - Geometrische-Funktion $f(X=r|p)$  
 - Hypergeometrische-Funktion $f(X=k|n,K,N)$  
 - Exakt binomialer 2-Felder Test $f(X=b|b,c)$  
-- Exakt hypergeometrischer 4-Felder Test $f(X=a|a,b,c,d)$  
-*Fisher Exact* (Fisher, 1922, 1954; s. Agresti, 1992).  
+- Exakt hypergeometrischer 4-Felder Test $f(X=a|a,b,c,d)$, *Fisher Exact* (Fisher, 1922, 1954; s. Agresti, 1992).  
 
 #### Screenshots probability distribution
 
@@ -39,7 +38,7 @@ The fundamental *binomial distribution* was derived by Bernoulli (1713), s. Schn
 - t-Funktion $F(x=t)$  
 - $\chi$²- Funktion $F(x=\chi²)$  
 - F- Funktion $F(x=F)$   
-- Effekt-Stärke $\epsilon$  
+- Effekt-Stärke $\epsilon$, Cohen (1977). 
 
 #### Screenshots $\epsilon$
 
@@ -52,10 +51,10 @@ The *t-distribution* was first derived by Lüroth (1876), later in a more genera
 
 Helmert (1876) first described the *chi squared distribution*, independently rediscovered by Pearson (1900), c.f. also Elderton (1902), Pearson (1914) or Plackett (1983), for the *F-distribution* see Fisher (1924).
 
-Statistical *power* and *effect size* $\epsilon$  (Cohen, 1977, 1992) layed foundations for statistical meta-analysis and methods of estimation statistics, see e.g. Borenstein et al. (2001) for related software applications. 
+Statistical *power* $1-\beta$ and *effect size* $\epsilon$  (Cohen, 1977, 1992) layed foundations for statistical meta-analysis and methods of estimation statistics, see e.g. Borenstein et al. (2001) for related software applications. 
 
 ### Transformationen (transformation functions)
-- Fisher-Z Funktion $F(x=r)$  
+- Fisher-Z Funktion $F(x=r)$, Fisher (1915).
 - Gamma $F(x)=\Gamma$
 
 *Gamma* $\Gamma$, to solve the problem of *extending* the *factorial* to *non-integer* arguments, was first considered in a letter from Bernoulli to Goldbach (Bernoulli, 1729), introduced later by Euler (1738) - of fundamental definitional importance for the formulation of *approximate probability distribution* functions such as $\chi$², $t$ or $F$.
@@ -82,7 +81,9 @@ Elderton, W. P. (1902). Tables for Testing the Goodness of Fit of Theory to Obs
 
 Euler, L. (1738). De progressionibus transcendentibus seu quarum termini generales algebraice dari nequeunt. *Commentarii Academiae Scientiarum Petropolitanae 5*: 36–57. https://scholarlycommons.pacific.edu/euler-works/19/.
 
-Fisher, R. A. (1922). On the Interpretation of χ2 from Contingency Tables, and the Calculation of p. *Journal of the Royal Statistical Society 85* (1): 87–94. https://doi.org/10.2307/2340521.
+Fisher, R. A. (1915). Frequency Distribution of the Values of the Correlation Coefficient in Samples from an Indefinitely Large Population. *Biometrika 10* (4): 507–21. https://doi.org/10.2307/2331838.
+
+———.  (1922). On the Interpretation of χ2 from Contingency Tables, and the Calculation of p. *Journal of the Royal Statistical Society 85* (1): 87–94. https://doi.org/10.2307/2340521.
 
 ———. (1924). On a Distribution Yielding the Error Functions of Several Well-Known Statistics. *Proceedings International Mathematical Congress, Toronto 2*: 805–13. https://repository.rothamsted.ac.uk/item/8w2q9/on-a-distribution-yielding-the-error-functions-of-several-well-known-statistics.
 
