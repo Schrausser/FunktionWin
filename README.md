@@ -92,6 +92,8 @@ Gauß, C. F. (1809). *Theoria motvs corporvm coelestivm in sectionibvs conicis 
 
 ———. (1823). *Theoria Combinationis Observationum Erroribus Minimis Obnoxiae*. Göttingen: apud Henricum Dieterich. https://doi.org/10.3931/e-rara-2857.
 
+Gosset, W. S. (1908). The Probable Error of a Mean. *Biometrika 6* (1): 1–25. https://doi.org/10.2307/2331554.
+
 Hahn, R. (1970). Mathematics - The Doctrine of Chances or, A Method of Calculating the Probabilities of Events in Play. By Abraham de Moivre. 2nd ed. [1738]. London, F. Cass, 1967. Pp. xiv + 258. £6 6s. *The British Journal for the History of Science 5* (2): 189–90. https://doi.org/10.1017/S0007087400010967.
 
 Hald, A. (1990). De Moivre and the Doctrine of Chances, 1718, 1738, and 1756. In *History of Probability and Statistics and Their Applications before 1750*, edited by Hald, A., 397–424. New York: Wiley Series in Probability; Statistics, Wiley-Interscience. https://onlinelibrary.wiley.com/doi/book/10.1002/0471725161.
