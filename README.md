@@ -49,7 +49,7 @@ The fundamental *binomial distribution* was derived by Bernoulli (1713), s. Schn
 
 The *t-distribution* was first derived by Lüroth (1876), later in a more general form defined as *Pearson Type IV* (Pearson, 1895), commonly known as *Student's t-distribution*, from William Sealy Gosset (1908).
 
-Helmert (1876) first described the *chi squared distribution*, independently rediscovered by Pearson (1900), c.f. also Elderton (1902), Pearson (1914) or Plackett (1983), for the *F-distribution* see Fisher (1924).
+Helmert (1876) first described the *chi squared distribution*, independently rediscovered by Pearson (1900), c.f. also Elderton (1902), Pearson (1914) or Plackett (1983), for the *F-distribution* by Fisher (1924) see Snedecor (1934) and Scheffé (1959).
 
 Statistical *power* $1-\beta$ and *effect size* $\epsilon$  (Cohen, 1977, 1992) layed foundations for statistical meta-analysis and methods of estimation statistics, see e.g. Borenstein et al. (2001) for related software applications. 
 
@@ -111,8 +111,12 @@ Pearson, K. (1895). Contributions to the Mathematical Theory of Evolution. II. 
 
 Plackett, R. L. (1983). Karl Pearson and the Chi-Squared Test. *International Statistical Review / Revue Internationale de Statistique 51* (1): 59–72. https://doi.org/10.2307/1402731.
 
+Scheffé, H. (1959). *The Analysis of Variance*. New York: Wiley. https://psycnet.apa.org/record/1961-00074-000.
+
 Schneider, I. (2005a). Chapter 6 - Jakob Bernoulli, Ars conjectandi (1713). In *Landmark Writings in Western Mathematics 1640-1940*, edited by Grattan-Guinness, I., Cooke, R., Corry, L., Crépel, P., & Guicciardini, N., 88–104. Amsterdam: Elsevier Science. https://doi.org/10.1016/B978-044450871-3/50087-5.
 
 ———. (2005b). Chapter 7 -Abraham De Moivre, The Doctrine of Chances (1718, 1738, 1756). In *Landmark Writings in Western Mathematics 1640-1940*, edited by Grattan-Guinness, I., Cooke, R., Corry, L., Crépel, P., & Guicciardini, N., 105–20. Amsterdam: Elsevier Science. https://doi.org/10.1016/B978-044450871-3/50087-5.
 
 Schrausser, D. G. (2024). *Schrausser/ConsoleApp_DistributionFunctions: Console applicationes for distribution functions* (v1.5.0). Zenodo. https://doi.org/10.5281/zenodo.7664141.
+
+Snedecor, G. W. (1934). *Calculation and Interpretation of Analysis of Variance and Covariance*. Ames, Iowa: Collegiate Press. https://doi.org/10.1037/13308-000.
