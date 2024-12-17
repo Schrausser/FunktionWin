@@ -1,7 +1,7 @@
 # FunktionWin
 ![figure.\label{pic0}](FunktionWin.png)
 
-Graphical MS Windows user interface for `ConsoleApp_DistributionFunctions` (Schrausser, 2024).  
+Graphical MS Windows user interface for `ConsoleApp_DistributionFunctions` (Schrausser, 2024b).  
 
 The following functions were realized:
 
@@ -59,7 +59,7 @@ Statistical *power* $1-\beta$ and *effect size* $\epsilon$  (Cohen, 1977, 1992) 
 
 *Gamma* $\Gamma$, to solve the problem of *extending* the *factorial* to *non-integer* arguments, was first considered in a letter from Bernoulli to Goldbach (Bernoulli, 1729), introduced later by Euler (1738) - of fundamental definitional importance for the formulation of *approximate probability distribution* functions such as $\chi$², $t$ or $F$ (c.f. Meyberg & Vachenauer, 2001; Cuyt et al., 2008; Beals & Wong, 2020; Little et al., 2022).
 
-See further e.g. Bortz (1984), Bortz & Weber (2005), Bortz & Schuster (2010), Döring (2023) and Pascucci (2024a, b).
+See further e.g. Bortz (1984), Bortz & Weber (2005), Bortz & Schuster (2010), Döring (2023), Pascucci (2024a, b) and Schrausser (2024a).
 
 ### References
 
@@ -177,6 +177,8 @@ Schneider, I. (2005a). Chapter 6 - Jakob Bernoulli, Ars conjectandi (1713). In 
 
 ———. (2005b). Chapter 7 -Abraham De Moivre, The Doctrine of Chances (1718, 1738, 1756). In *Landmark Writings in Western Mathematics 1640-1940*, edited by Grattan-Guinness, I., Cooke, R., Corry, L., Crépel, P., & Guicciardini, N., 105–20. Amsterdam: Elsevier Science. https://doi.org/10.1016/B978-044450871-3/50087-5.
 
-Schrausser, D. G. (2024). *Schrausser/ConsoleApp_DistributionFunctions: Console applicationes for distribution functions* (v1.5.0). Zenodo. https://doi.org/10.5281/zenodo.7664141.
+Schrausser, D. G. (2024a). *Handbook: Distribution Functions (Verteilungs Funktionen)*. PsyArXiv. https://doi.org/10.31234/osf.io/rvzxa.
+
+———. (2024b). *Schrausser/ConsoleApp_DistributionFunctions: Console applicationes for distribution functions* (version v1.5.0). Zenodo. https://doi.org/10.5281/zenodo.7664141.
 
 Snedecor, G. W. (1934). *Calculation and Interpretation of Analysis of Variance and Covariance*. Ames, Iowa: Collegiate Press. https://doi.org/10.1037/13308-000.
