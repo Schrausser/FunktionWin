@@ -30,7 +30,7 @@ The following functions were realized:
 
 ![figure.\label{pic5}](pic5.jpg)
 
-The fundamental *binomial distribution* was derived by Bernoulli (1713), s. Schneider (2005a) and above all De Moivre (1711, 1718) with the discovery of the first instance of central limit theorem, to *approximate* the *binomial* distribution with the *normal* distribution, further developed by Gauss (1809, 1823), see Hahn (1970), Hald (1990) or Schneider (2005b).
+The fundamental *binomial distribution* was derived by Bernoulli (1713), s. Schneider (2005a) and above all de Moivre (1711, 1718) with the discovery of the first instance of central limit theorem, to *approximate* the *binomial* distribution with the *normal* distribution, further developed by Gauss (1809, 1823), see Hahn (1970), Hald (1990) or Schneider (2005b).
 
 ### Theta-Verteilung $\theta$ (characteristic value or $\theta$ distribution)
 - z-Dichte Funktion $f(x=z)$  
