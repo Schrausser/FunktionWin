@@ -1,7 +1,7 @@
 # FunktionWin
 ![figure.\label{pic0}](FunktionWin.png)
 
-Graphical MS Windows user interface for `ConsoleApp_DistributionFunctions` (Schrausser, 2024b).  
+Graphical MS Windows user interface for `ConsoleApp_DistributionFunctions` (Schrausser, [2024b]()).  
 
 The following functions were realized:
 
@@ -11,8 +11,8 @@ The following functions were realized:
 - Poisson-Funktion $f(X=k|n,p)$  
 - Geometrische-Funktion $f(X=r|p)$  
 - Hypergeometrische-Funktion $f(X=k|n,K,N)$  
-- Exakt binomialer 2-Felder Test $f(X=b|b,c)$  
-- Exakt hypergeometrischer 4-Felder Test $f(X=a|a,b,c,d)$, *Fisher Exact* (Fisher, 1922, 1954; s. Agresti, 1992).  
+- Exakt *binomialer* 2-Felder Test $f(X=b|b,c)$  
+- Exakt *hypergeometrischer* 4-Felder Test $f(X=a|a,b,c,d)$, *Fisher Exact* (Fisher, [1922](), [1954](); s. Agresti, [1992]()).  
 
 #### Screenshots probability distribution
 
@@ -30,15 +30,15 @@ The following functions were realized:
 
 ![figure.\label{pic5}](pic5.jpg)
 
-The fundamental *binomial distribution* was derived by Bernoulli (1713), s. Schneider (2005a) and above all de Moivre (1711, 1718) with the discovery of the first instance of central limit theorem, to *approximate* the *binomial* distribution with the *normal* distribution, further developed by Gauss (1809, 1823), see Hahn (1970), Hald (1990) or Schneider (2005b).
+The fundamental *binomial distribution* was derived by Bernoulli ([1713]()), s. Schneider ([2005a]()) and above all de Moivre ([1711](), [1718]()) with the discovery of the first instance of central limit theorem, to *approximate* the *binomial* distribution with the *normal* distribution, further developed by Gauss ([1809](), [1823]()), see Hahn ([1970]()), Hald ([1990]()) or Schneider ([2005b]()).
 
 ### Theta-Verteilung $\theta$ (characteristic value or $\theta$ distribution)
-- z-Dichte Funktion $f(x=z)$  
-- z-Funktion $F(x=z)$  
-- t-Funktion $F(x=t)$  
+- $z$-Dichte Funktion $f(x=z)$  
+- $z$-Funktion $F(x=z)$  
+- $t$-Funktion $F(x=t)$  
 - $\chi$²- Funktion $F(x=\chi²)$  
-- F- Funktion $F(x=F)$   
-- Effekt-Stärke $\epsilon$, Cohen (1977). 
+- $F$-Funktion $F(x=F)$   
+- Effekt-Stärke $\epsilon$, Cohen ([1977]()). 
 
 #### Screenshots $\epsilon$
 
@@ -47,19 +47,19 @@ The fundamental *binomial distribution* was derived by Bernoulli (1713), s. Schn
 
 ![figure.\label{pic7}](pic7.jpg)
 
-The *t-distribution* was first derived by Lüroth (1876), later in a more general form defined as *Pearson Type IV* (Pearson, 1895), commonly known as *Student's t-distribution*, from William Sealy Gosset (1908).
+The $t$-*distribution* was first derived by Lüroth ([1876]()), later in a more general form defined as *Pearson Type IV* (Pearson, [1895]()), commonly known as *Student's* $t$-*distribution*, from William Sealy Gosset ([1908]()).
 
-Helmert (1876) first described the *chi squared distribution*, independently rediscovered by Pearson (1900), c.f. also Elderton (1902), Pearson (1914) or Plackett (1983), for the *F-distribution* by Fisher (1924) see Snedecor (1934) and Scheffé (1959).
+Helmert ([1876]()) first described the $\chi^2$-*distribution*, independently rediscovered by Pearson ([1900]()), c.f. also Elderton ([1902]()), Pearson ([1914]()) or Plackett ([1983]()), for the *F-distribution* by Fisher ([1924]()) see Snedecor ([1934]()) and Scheffé ([1959]()).
 
-Statistical *power* $1-\beta$ and *effect size* $\epsilon$  (Cohen, 1977, 1992) layed foundations for statistical meta-analysis and methods of estimation statistics, see e.g. Borenstein et al. (2001) for related software applications. 
+Statistical *power* $1-\beta$ and *effect size* $\epsilon$  (Cohen, [1977](), [1992]()) layed foundations for statistical meta-analysis and methods of estimation statistics, see e.g. Borenstein et al. ([2001]()) for related software applications. 
 
 ### Transformationen (transformation functions)
-- Fisher-Z Funktion $F(x=r)$, Fisher (1915).
+- Fisher- $Z$ Funktion $F(x=r)$, Fisher ([1915]()).
 - Gamma $F(x)=\Gamma$
 
-*Gamma* $\Gamma$, to solve the problem of *extending* the *factorial* to *non-integer* arguments, was first considered in a letter from Bernoulli to Goldbach (Bernoulli, 1729), introduced later by Euler (1738) - of fundamental definitional importance for the formulation of *approximate probability distribution* functions such as $\chi$², $t$ or $F$ (c.f. Meyberg & Vachenauer, 2001; Cuyt et al., 2008; Beals & Wong, 2020; Little et al., 2022).
+*Gamma* $\Gamma$, to solve the problem of *extending* the *factorial* to *non-integer* arguments, was first considered in a letter from Bernoulli to Goldbach (Bernoulli, [1729]()), introduced later by Euler ([1738]()) - of fundamental definitional importance for the formulation of *approximate probability distribution* functions such as $\chi^2$, $t$ or $F$ (c.f. Meyberg and Vachenauer, [2001](); Cuyt et al., [2008](); Beals and Wong, [2020](); Little et al., [2022]()).
 
-See further e.g. Bortz (1984), Bortz & Weber (2005), Bortz & Schuster (2010), Döring (2023), Pascucci (2024a, b) and Schrausser (2024a).
+See further e.g. Bortz ([1984]()), Bortz and Weber ([2005]()), Bortz and Schuster ([2010]()), Döring ([2023]()), Pascucci ([2024a](), [b]()) and Schrausser ([2024a]()).
 
 ### References
 
