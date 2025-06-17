@@ -12,7 +12,7 @@ The following functions were realized:
 - Geometrische-Funktion $f(X=r|p)$  
 - Hypergeometrische-Funktion $f(X=k|n,K,N)$  
 - Exakt *binomialer* 2-Felder Test $f(X=b|b,c)$  
-- Exakt *hypergeometrischer* 4-Felder Test $f(X=a|a,b,c,d)$, *Fisher Exact* (Fisher, [1922](), [1954](); s. Agresti, [1992]()).  
+- Exakt *hypergeometrischer* 4-Felder Test $f(X=a|a,b,c,d)$, *Fisher Exact* (Fisher, [1922](https://doi.org/10.2307/2340521), [1954](https://www.worldcat.org/de/title/statistical-methods-for-research-workers/oclc/312138); s. Agresti, [1992](https://doi.org/10.1214/ss/1177011454)).  
 
 #### Screenshots probability distribution
 
@@ -30,7 +30,7 @@ The following functions were realized:
 
 ![figure.\label{pic5}](pic5.jpg)
 
-The fundamental *binomial distribution* was derived by Bernoulli ([1713]()), s. Schneider ([2005a]()) and above all de Moivre ([1711](), [1718]()) with the discovery of the first instance of central limit theorem, to *approximate* the *binomial* distribution with the *normal* distribution, further developed by Gauss ([1809](), [1823]()), see Hahn ([1970]()), Hald ([1990]()) or Schneider ([2005b]()).
+The fundamental *binomial distribution* was derived by Bernoulli ([1713](https://www.e-rara.ch/zut/doi/10.3931/e-rara-9001)), s. Schneider ([2005a]()) and above all de Moivre ([1711](https://doi.org/10.1098/rstl.1710.0018), [1718](https://books.google.com/books?id=3EPac6QpbuMC)) with the discovery of the first instance of central limit theorem, to *approximate* the *binomial* distribution with the *normal* distribution, further developed by Gauss ([1809](https://archive.org/details/theoriamotuscor00gausgoog/page/n1/mode/1up), [1823](https://doi.org/10.3931/e-rara-2857)), see Hahn ([1970]()), Hald ([1990]()) or Schneider ([2005b]()).
 
 ### Theta-Verteilung $\theta$ (characteristic value or $\theta$ distribution)
 - $z$-Dichte Funktion $f(x=z)$  
@@ -38,7 +38,7 @@ The fundamental *binomial distribution* was derived by Bernoulli ([1713]()), s. 
 - $t$-Funktion $F(x=t)$  
 - $\chi$²- Funktion $F(x=\chi²)$  
 - $F$-Funktion $F(x=F)$   
-- Effekt-Stärke $\epsilon$, Cohen ([1977]()). 
+- Effekt-Stärke $\epsilon$, Cohen ([1977](https://doi.org/10.1016/C2013-0-10517-X)). 
 
 #### Screenshots $\epsilon$
 
@@ -47,105 +47,67 @@ The fundamental *binomial distribution* was derived by Bernoulli ([1713]()), s. 
 
 ![figure.\label{pic7}](pic7.jpg)
 
-The $t$-*distribution* was first derived by Lüroth ([1876]()), later in a more general form defined as *Pearson Type IV* (Pearson, [1895]()), commonly known as *Student's* $t$-*distribution*, from William Sealy Gosset ([1908]()).
+The $t$-*distribution* was first derived by Lüroth ([1876]()), later in a more general form defined as *Pearson Type IV* (Pearson, [1895]()), commonly known as *Student's* $t$-*distribution*, from William Sealy Gosset ([1908](https://doi.org/10.2307/2331554)).
 
-Helmert ([1876]()) first described the $\chi^2$-*distribution*, independently rediscovered by Pearson ([1900]()), c.f. also Elderton ([1902]()), Pearson ([1914]()) or Plackett ([1983]()), for the *F-distribution* by Fisher ([1924]()) see Snedecor ([1934]()) and Scheffé ([1959]()).
+Helmert ([1876]()) first described the $\chi^2$-*distribution*, independently rediscovered by Pearson ([1900]()), c.f. also Elderton ([1902](https://doi.org/10.1093/biomet/1.2.155)), Pearson ([1914]()) or Plackett ([1983]()), for the *F-distribution* by Fisher ([1924](https://repository.rothamsted.ac.uk/item/8w2q9/on-a-distribution-yielding-the-error-functions-of-several-well-known-statistics)) see Snedecor ([1934]()) and Scheffé ([1959]()).
 
-Statistical *power* $1-\beta$ and *effect size* $\epsilon$  (Cohen, [1977](), [1992]()) layed foundations for statistical meta-analysis and methods of estimation statistics, see e.g. Borenstein et al. ([2001]()) for related software applications. 
+Statistical *power* $1-\beta$ and *effect size* $\epsilon$  (Cohen, [1977](https://doi.org/10.1016/C2013-0-10517-X), [1992](https://doi.org/10.1037/0033-2909.112.1.15)) layed foundations for statistical meta-analysis and methods of estimation statistics, see e.g. Borenstein et al. ([2001](https://books.google.com/books?id=tYg02XZBeNAC&printsec=frontcover&hl=de#v=onepage&q&f=false)) for related software applications. 
 
 ### Transformationen (transformation functions)
-- Fisher- $Z$ Funktion $F(x=r)$, Fisher ([1915]()).
+- Fisher $Z$ Funktion $F(x=r)$, Fisher ([1915](https://doi.org/10.2307/2331838)).
 - Gamma $F(x)=\Gamma$
 
-*Gamma* $\Gamma$, to solve the problem of *extending* the *factorial* to *non-integer* arguments, was first considered in a letter from Bernoulli to Goldbach (Bernoulli, [1729]()), introduced later by Euler ([1738]()) - of fundamental definitional importance for the formulation of *approximate probability distribution* functions such as $\chi^2$, $t$ or $F$ (c.f. Meyberg and Vachenauer, [2001](); Cuyt et al., [2008](); Beals and Wong, [2020](); Little et al., [2022]()).
+*Gamma* $\Gamma$, to solve the problem of *extending* the *factorial* to *non-integer* arguments, was first considered in a letter from Bernoulli to Goldbach (Bernoulli, [1729](https://commons.m.wikimedia.org/wiki/File:DanielBernoulliLetterToGoldbach-1729-10-06.jpg)), introduced later by Euler ([1738](https://scholarlycommons.pacific.edu/euler-works/19/)) - of fundamental definitional importance for the formulation of *approximate probability distribution* functions such as $\chi^2$, $t$ or $F$ (c.f. Meyberg and Vachenauer, [2001](); Cuyt et al., [2008](https://doi.org/10.1007/978-1-4020-6949-9_12); Beals and Wong, [2020](https://doi.org/10.1007/978-3-030-54533-8_10); Little et al., [2022]()).
 
-See further e.g. Bortz ([1984]()), Bortz and Weber ([2005]()), Bortz and Schuster ([2010]()), Döring ([2023]()), Pascucci ([2024a](), [b]()) and Schrausser ([2024a]()).
+See further e.g. Bortz ([1984](https://doi.org/10.1007/978-3-662-00468-5)), Bortz and Weber ([2005](https://doi.org/10.1007/b137571)), Bortz and Schuster ([2010](https://doi.org/10.1007/978-3-642-12770-0)), Döring ([2023](https://doi.org/10.1007/978-3-662-64762-2)), Pascucci ([2024a](), [b]()) and Schrausser ([2024a]()).
 
 ### References
 
-Agresti, A. (1992). A Survey of Exact Inference for Contingency Tables. *Statistical Science 7* (1): 131–53. [https://doi.org/10.1214/ss/1177011454]()
+Agresti, A. (1992). A Survey of Exact Inference for Contingency Tables. *Statistical Science 7* (1): 131–53. [https://doi.org/10.1214/ss/1177011454](https://doi.org/10.1214/ss/1177011454)
 
-Bernoulli, D. (1729). Lettre XLVII. D. Bernoulli a Goldbach. St.-Petersbourg ce 6. octobre 1729. [https://commons.m.wikimedia.org/wiki/File:DanielBernoulliLetterToGoldbach-1729-10-06.jpg]()
+Beals, R., & Wong, R. S. C. (2020). The Gamma and Beta Functions. In *Explorations in Complex Functions*, 141–53. Cham: Springer International Publishing. [https://doi.org/10.1007/978-3-030-54533-8_10](https://doi.org/10.1007/978-3-030-54533-8_10)
 
-Bernoulli, J. (1713). *Ars conjectandi, opus posthumum. Accedit Tractatus de seriebus infinitis, et epistola gallicé scripta de ludo pilae reticularis*. Basileae: Impensis Thurnisiorum, Fratrum. [https://www.e-rara.ch/zut/doi/10.3931/e-rara-9001]()
+Bernoulli, D. (1729). Lettre XLVII. D. Bernoulli a Goldbach. St.-Petersbourg ce 6. octobre 1729. [https://commons.m.wikimedia.org/wiki/File:DanielBernoulliLetterToGoldbach-1729-10-06.jpg](https://commons.m.wikimedia.org/wiki/File:DanielBernoulliLetterToGoldbach-1729-10-06.jpg)
 
-Borenstein, M., Rothstein, H., Cohen, J., Schoenfeld, D., Berlin, J., & Lakatos, E. (2001). *Power and Precision: A Computer Program for Statistical Power Analysis and Confidence Intervals*. Englewood, NJ: Biostat, Inc. [https://books.google.com/books?id=tYg02XZBeNAC&printsec=frontcover&hl=de#v=onepage&q&f=false]()
+Bernoulli, J. (1713). *Ars conjectandi, opus posthumum. Accedit Tractatus de seriebus infinitis, et epistola gallicé scripta de ludo pilae reticularis*. Basileae: Impensis Thurnisiorum, Fratrum. [https://www.e-rara.ch/zut/doi/10.3931/e-rara-9001](https://www.e-rara.ch/zut/doi/10.3931/e-rara-9001)
 
-Cohen, J. (1977). *Statistical Power Analysis for the Behavioral Scienc*e. Amsterdam: Elsevier Academic Press. [https://doi.org/10.1016/C2013-0-10517-X]()
+Borenstein, M., Rothstein, H., Cohen, J., Schoenfeld, D., Berlin, J., & Lakatos, E. (2001). *Power and Precision: A Computer Program for Statistical Power Analysis and Confidence Intervals*. Englewood, NJ: Biostat, Inc. [https://books.google.com/books?id=tYg02XZBeNAC&printsec=frontcover&hl=de#v=onepage&q&f=false](https://books.google.com/books?id=tYg02XZBeNAC&printsec=frontcover&hl=de#v=onepage&q&f=false)
 
-———. (1992). A Power Primer. *Psychological Bulletin 112* (1): 155–59. [https://doi.org/10.1037/0033-2909.112.1.15]()
+Bortz, J. (1984). *Lehrbuch Der Empirischen Forschung*. Berlin, Heidelberg: Springer Berlin Heidelberg. [https://doi.org/10.1007/978-3-662-00468-5](https://doi.org/10.1007/978-3-662-00468-5)
 
-de Moivre, A. (1711). De mensura sortis, seu, de probabilitate eventuum in ludis a casu fortuito pendentibus. *Philosophical Transactions of the Royal Society of London 27* (329): 213–64. [https://doi.org/10.1098/rstl.1710.0018]()
+Bortz, J., & Schuster, C. (2010). *Statistik Für Human- Und Sozialwissenschaftler: Limitierte Sonderausgabe*. 7th ed. Springer-Lehrbuch. Berlin, Heidelberg: Springer. [https://doi.org/10.1007/978-3-642-12770-0](https://doi.org/10.1007/978-3-642-12770-0)
 
-———. (1718). *The Doctrine of Chances: Or, A Method of Calculating the Probability of Events in Play*. 1st ed. London: W. Pearson. [https://books.google.com/books?id=3EPac6QpbuMC]()
+Bortz, J., & Weber, R. (2005). *Statistik: Für Human- Und Sozialwissenschaftler*. 6th ed. Springer-Lehrbuch. Berlin, Heidelberg: Springer. [https://doi.org/10.1007/b137571](https://doi.org/10.1007/b137571)
 
-Elderton, W. P. (1902). Tables for Testing the Goodness of Fit of Theory to Observation. *Biometrika 1* (2): 155–63. [https://doi.org/10.1093/biomet/1.2.155]()
+Cohen, J. (1977). *Statistical Power Analysis for the Behavioral Scienc*e. Amsterdam: Elsevier Academic Press. [https://doi.org/10.1016/C2013-0-10517-X](https://doi.org/10.1016/C2013-0-10517-X)
 
-Euler, L. (1738). De progressionibus transcendentibus seu quarum termini generales algebraice dari nequeunt. *Commentarii Academiae Scientiarum Petropolitanae 5*: 36–57. [https://scholarlycommons.pacific.edu/euler-works/19/]()
+———. (1992). A Power Primer. *Psychological Bulletin 112* (1): 155–59. [https://doi.org/10.1037/0033-2909.112.1.15](https://doi.org/10.1037/0033-2909.112.1.15)
 
-Fisher, R. A. (1915). Frequency Distribution of the Values of the Correlation Coefficient in Samples from an Indefinitely Large Population. *Biometrika 10* (4): 507–21. [https://doi.org/10.2307/2331838]()
+Cuyt, A., Petersen, V. B., Verdonk, B., Waadeland, H., & Jones, W. B. (2008). Gamma Function and Related Functions. In *Handbook of Continued Fractions for Special Functions*, 221–51. Dordrecht: Springer Netherlands. [https://doi.org/10.1007/978-1-4020-6949-9_12](https://doi.org/10.1007/978-1-4020-6949-9_12)
 
-———.  (1922). On the Interpretation of χ2 from Contingency Tables, and the Calculation of p. *Journal of the Royal Statistical Society 85* (1): 87–94. [https://doi.org/10.2307/2340521]()
+de Moivre, A. (1711). De mensura sortis, seu, de probabilitate eventuum in ludis a casu fortuito pendentibus. *Philosophical Transactions of the Royal Society of London 27* (329): 213–64. [https://doi.org/10.1098/rstl.1710.0018](https://doi.org/10.1098/rstl.1710.0018)
 
-———. (1924). On a Distribution Yielding the Error Functions of Several Well-Known Statistics. *Proceedings International Mathematical Congress, Toronto 2*: 805–13. [https://repository.rothamsted.ac.uk/item/8w2q9/on-a-distribution-yielding-the-error-functions-of-several-well-known-statistics]()
+———. (1718). *The Doctrine of Chances: Or, A Method of Calculating the Probability of Events in Play*. 1st ed. London: W. Pearson. [https://books.google.com/books?id=3EPac6QpbuMC](https://books.google.com/books?id=3EPac6QpbuMC)
 
-———. (1954). *Statistical Methods for Research Workers*. 12th ed. Edinburgh: Oliver; Boyd. [https://www.worldcat.org/de/title/statistical-methods-for-research-workers/oclc/312138]()
+Döring, N. (2023). *Forschungsmethoden Und Evaluation in Den Sozial- Und Humanwissenschaften*. Berlin, Heidelberg: Springer Berlin Heidelberg. [https://doi.org/10.1007/978-3-662-64762-2](https://doi.org/10.1007/978-3-662-64762-2)
 
-Gauß, C. F. (1809). *Theoria motvs corporvm coelestivm in sectionibvs conicis Solem ambientivm*. Hambvrgi: Svmtibvs F. Perthes et I. H. Besser. [https://archive.org/details/theoriamotuscor00gausgoog/page/n1/mode/1up]()
+Elderton, W. P. (1902). Tables for Testing the Goodness of Fit of Theory to Observation. *Biometrika 1* (2): 155–63. [https://doi.org/10.1093/biomet/1.2.155](https://doi.org/10.1093/biomet/1.2.155)
 
-———. (1823). *Theoria Combinationis Observationum Erroribus Minimis Obnoxiae*. Göttingen: apud Henricum Dieterich. [https://doi.org/10.3931/e-rara-2857]()
+Euler, L. (1738). De progressionibus transcendentibus seu quarum termini generales algebraice dari nequeunt. *Commentarii Academiae Scientiarum Petropolitanae 5*: 36–57. [https://scholarlycommons.pacific.edu/euler-works/19/](https://scholarlycommons.pacific.edu/euler-works/19/)
 
-Gosset, W. S. (1908). The Probable Error of a Mean. *Biometrika 6* (1): 1–25. [https://doi.org/10.2307/2331554]()
+Fisher, R. A. (1915). Frequency Distribution of the Values of the Correlation Coefficient in Samples from an Indefinitely Large Population. *Biometrika 10* (4): 507–21. [https://doi.org/10.2307/2331838](https://doi.org/10.2307/2331838)
 
-Hahn, R. (1970). Mathematics - The Doctrine of Chances or, A Method of Calculating the Probabilities of Events in Play. By Abraham de Moivre. 2nd ed. [1738]. London, F. Cass, 1967. Pp. xiv + 258. £6 6s. *The British Journal for the History of Science 5* (2): 189–90. [https://doi.org/10.1017/S0007087400010967]()
+———.  (1922). On the Interpretation of χ2 from Contingency Tables, and the Calculation of p. *Journal of the Royal Statistical Society 85* (1): 87–94. [https://doi.org/10.2307/2340521](https://doi.org/10.2307/2340521)
 
-Hald, A. (1990). De Moivre and the Doctrine of Chances, 1718, 1738, and 1756. In *History of Probability and Statistics and Their Applications before 1750*, edited by Hald, A., 397–424. New York: Wiley Series in Probability; Statistics, Wiley-Interscience. [https://onlinelibrary.wiley.com/doi/book/10.1002/0471725161]()
+———. (1924). On a Distribution Yielding the Error Functions of Several Well-Known Statistics. *Proceedings International Mathematical Congress, Toronto 2*: 805–13. [https://repository.rothamsted.ac.uk/item/8w2q9/on-a-distribution-yielding-the-error-functions-of-several-well-known-statistics](https://repository.rothamsted.ac.uk/item/8w2q9/on-a-distribution-yielding-the-error-functions-of-several-well-known-statistics)
 
-Agresti, A. (1992). A Survey of Exact Inference for Contingency Tables. *Statistical Science 7* (1): 131–53. [https://doi.org/10.1214/ss/1177011454]()
+———. (1954). *Statistical Methods for Research Workers*. 12th ed. Edinburgh: Oliver; Boyd. [https://www.worldcat.org/de/title/statistical-methods-for-research-workers/oclc/312138](https://www.worldcat.org/de/title/statistical-methods-for-research-workers/oclc/312138)
 
-Beals, R., & Wong, R. S. C. (2020). The Gamma and Beta Functions. In *Explorations in Complex Functions*, 141–53. Cham: Springer International Publishing. [https://doi.org/10.1007/978-3-030-54533-8_10]()
+Gauss, C. F. (1809). *Theoria motvs corporvm coelestivm in sectionibvs conicis Solem ambientivm*. Hambvrgi: Svmtibvs F. Perthes et I. H. Besser. [https://archive.org/details/theoriamotuscor00gausgoog/page/n1/mode/1up](https://archive.org/details/theoriamotuscor00gausgoog/page/n1/mode/1up)
 
-Bernoulli, D. (1729). Lettre XLVII. D. Bernoulli a Goldbach. St.-Petersbourg ce 6. octobre 1729. [https://commons.m.wikimedia.org/wiki/File:DanielBernoulliLetterToGoldbach-1729-10-06.jpg]()
+———. (1823). *Theoria Combinationis Observationum Erroribus Minimis Obnoxiae*. Göttingen: apud Henricum Dieterich. [https://doi.org/10.3931/e-rara-2857](https://doi.org/10.3931/e-rara-2857)
 
-Bernoulli, J. (1713). *Ars conjectandi, opus posthumum. Accedit Tractatus de seriebus infinitis, et epistola gallicé scripta de ludo pilae reticularis*. Basileae: Impensis Thurnisiorum, Fratrum. [https://www.e-rara.ch/zut/doi/10.3931/e-rara-9001]()
-
-Borenstein, M., Rothstein, H., Cohen, J., Schoenfeld, D., Berlin, J., & Lakatos, E. (2001). *Power and Precision: A Computer Program for Statistical Power Analysis and Confidence Intervals*. Englewood, NJ: Biostat, Inc. [https://books.google.com/books?id=tYg02XZBeNAC&printsec=frontcover&hl=de#v=onepage&q&f=false]()
-
-Bortz, J. (1984). *Lehrbuch Der Empirischen Forschung*. Berlin, Heidelberg: Springer Berlin Heidelberg. [https://doi.org/10.1007/978-3-662-00468-5]()
-
-Bortz, J., & Schuster, C. (2010). *Statistik Für Human- Und Sozialwissenschaftler: Limitierte Sonderausgabe*. 7th ed. Springer-Lehrbuch. Berlin, Heidelberg: Springer. [https://doi.org/10.1007/978-3-642-12770-0]()
-
-Bortz, J., & Weber, R. (2005). *Statistik: Für Human- Und Sozialwissenschaftler*. 6th ed. Springer-Lehrbuch. Berlin, Heidelberg: Springer. [https://doi.org/10.1007/b137571]()
-
-Cohen, J. (1977). *Statistical Power Analysis for the Behavioral Scienc*e. Amsterdam: Elsevier Academic Press. [https://doi.org/10.1016/C2013-0-10517-X]()
-
-———. (1992). A Power Primer. *Psychological Bulletin 112* (1): 155–59. [https://doi.org/10.1037/0033-2909.112.1.15]()
-
-Cuyt, A., Petersen, V. B., Verdonk, B., Waadeland, H., & Jones, W. B. (2008). Gamma Function and Related Functions. In *Handbook of Continued Fractions for Special Functions*, 221–51. Dordrecht: Springer Netherlands. [https://doi.org/10.1007/978-1-4020-6949-9_12]()
-
-de Moivre, A. (1711). De mensura sortis, seu, de probabilitate eventuum in ludis a casu fortuito pendentibus. *Philosophical Transactions of the Royal Society of London 27* (329): 213–64. [https://doi.org/10.1098/rstl.1710.0018]()
-
-———. (1718). *The Doctrine of Chances: Or, A Method of Calculating the Probability of Events in Play*. 1st ed. London: W. Pearson. [https://books.google.com/books?id=3EPac6QpbuMC]()
-
-Döring, N. (2023). *Forschungsmethoden Und Evaluation in Den Sozial- Und Humanwissenschaften*. Berlin, Heidelberg: Springer Berlin Heidelberg. [https://doi.org/10.1007/978-3-662-64762-2]()
-
-Elderton, W. P. (1902). Tables for Testing the Goodness of Fit of Theory to Observation. *Biometrika 1* (2): 155–63. [https://doi.org/10.1093/biomet/1.2.155]()
-
-Euler, L. (1738). De progressionibus transcendentibus seu quarum termini generales algebraice dari nequeunt. *Commentarii Academiae Scientiarum Petropolitanae 5*: 36–57. [https://scholarlycommons.pacific.edu/euler-works/19/]()
-
-Fisher, R. A. (1915). Frequency Distribution of the Values of the Correlation Coefficient in Samples from an Indefinitely Large Population. *Biometrika 10* (4): 507–21. [https://doi.org/10.2307/2331838]()
-
-———.  (1922). On the Interpretation of χ2 from Contingency Tables, and the Calculation of p. *Journal of the Royal Statistical Society 85* (1): 87–94. [https://doi.org/10.2307/2340521]()
-
-———. (1924). On a Distribution Yielding the Error Functions of Several Well-Known Statistics. *Proceedings International Mathematical Congress, Toronto 2*: 805–13. [https://repository.rothamsted.ac.uk/item/8w2q9/on-a-distribution-yielding-the-error-functions-of-several-well-known-statistics]()
-
-———. (1954). *Statistical Methods for Research Workers*. 12th ed. Edinburgh: Oliver; Boyd. [https://www.worldcat.org/de/title/statistical-methods-for-research-workers/oclc/312138]()
-
-Gauß, C. F. (1809). *Theoria motvs corporvm coelestivm in sectionibvs conicis Solem ambientivm*. Hambvrgi: Svmtibvs F. Perthes et I. H. Besser. [https://archive.org/details/theoriamotuscor00gausgoog/page/n1/mode/1up]()
-
-———. (1823). *Theoria Combinationis Observationum Erroribus Minimis Obnoxiae*. Göttingen: apud Henricum Dieterich. [https://doi.org/10.3931/e-rara-2857]()
-
-Gosset, W. S. (1908). The Probable Error of a Mean. *Biometrika 6* (1): 1–25. [https://doi.org/10.2307/2331554]()
+Gosset, W. S. (1908). The Probable Error of a Mean. *Biometrika 6* (1): 1–25. [https://doi.org/10.2307/2331554](https://doi.org/10.2307/2331554)
 
 Hahn, R. (1970). Mathematics - The Doctrine of Chances or, A Method of Calculating the Probabilities of Events in Play. By Abraham de Moivre. 2nd ed. [1738]. London, F. Cass, 1967. Pp. xiv + 258. £6 6s. *The British Journal for the History of Science 5* (2): 189–90. [https://doi.org/10.1017/S0007087400010967]()
 
