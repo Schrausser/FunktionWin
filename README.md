@@ -1,7 +1,7 @@
 # FunktionWin
 ![figure.\label{pic0}](FunktionWin.png)
 
-Graphical MS Windows user interface for `ConsoleApp_DistributionFunctions` (Schrausser, [2024b]()).  
+Graphical MS Windows user interface for `ConsoleApp_DistributionFunctions` (Schrausser, [2024b](https://doi.org/10.5281/zenodo.7664141)).  
 
 The following functions were realized:
 
@@ -30,7 +30,7 @@ The following functions were realized:
 
 ![figure.\label{pic5}](pic5.jpg)
 
-The fundamental *binomial distribution* was derived by Bernoulli ([1713](https://www.e-rara.ch/zut/doi/10.3931/e-rara-9001)), s. Schneider ([2005a]()) and above all de Moivre ([1711](https://doi.org/10.1098/rstl.1710.0018), [1718](https://books.google.com/books?id=3EPac6QpbuMC)) with the discovery of the first instance of central limit theorem, to *approximate* the *binomial* distribution with the *normal* distribution, further developed by Gauss ([1809](https://archive.org/details/theoriamotuscor00gausgoog/page/n1/mode/1up), [1823](https://doi.org/10.3931/e-rara-2857)), see Hahn ([1970]()), Hald ([1990]()) or Schneider ([2005b]()).
+The fundamental *binomial distribution* was derived by Bernoulli ([1713](https://www.e-rara.ch/zut/doi/10.3931/e-rara-9001)), s. Schneider ([2005a](https://doi.org/10.1016/B978-044450871-3/50087-5)) and above all de Moivre ([1711](https://doi.org/10.1098/rstl.1710.0018), [1718](https://books.google.com/books?id=3EPac6QpbuMC)) with the discovery of the first instance of central limit theorem, to *approximate* the *binomial* distribution with the *normal* distribution, further developed by Gauss ([1809](https://archive.org/details/theoriamotuscor00gausgoog/page/n1/mode/1up), [1823](https://doi.org/10.3931/e-rara-2857)), see Hahn ([1970](https://doi.org/10.1017/S0007087400010967)), Hald ([1990](https://onlinelibrary.wiley.com/doi/book/10.1002/0471725161)) or Schneider ([2005b](https://doi.org/10.1016/B978-044450871-3/50087-5)).
 
 ### Theta-Verteilung $\theta$ (characteristic value or $\theta$ distribution)
 - $z$-Dichte Funktion $f(x=z)$  
@@ -47,9 +47,9 @@ The fundamental *binomial distribution* was derived by Bernoulli ([1713](https:/
 
 ![figure.\label{pic7}](pic7.jpg)
 
-The $t$-*distribution* was first derived by Lüroth ([1876]()), later in a more general form defined as *Pearson Type IV* (Pearson, [1895]()), commonly known as *Student's* $t$-*distribution*, from William Sealy Gosset ([1908](https://doi.org/10.2307/2331554)).
+The $t$-*distribution* was first derived by Lüroth ([1876](https://doi.org/10.1002/asna.18760871402)), later in a more general form defined as *Pearson Type IV* (Pearson, [1895](https://doi.org/10.1098/rsta.1895.0010)), commonly known as *Student's* $t$-*distribution*, from William Sealy Gosset ([1908](https://doi.org/10.2307/2331554)).
 
-Helmert ([1876]()) first described the $\chi^2$-*distribution*, independently rediscovered by Pearson ([1900]()), c.f. also Elderton ([1902](https://doi.org/10.1093/biomet/1.2.155)), Pearson ([1914]()) or Plackett ([1983]()), for the *F-distribution* by Fisher ([1924](https://repository.rothamsted.ac.uk/item/8w2q9/on-a-distribution-yielding-the-error-functions-of-several-well-known-statistics)) see Snedecor ([1934]()) and Scheffé ([1959]()).
+Helmert ([1876](https://gdz.sub.uni-goettingen.de/id/PPN599415665_0021)) first described the $\chi^2$-*distribution*, independently rediscovered by Pearson ([1900](https://doi.org/10.1080/14786440009463897)), c.f. also Elderton ([1902](https://doi.org/10.1093/biomet/1.2.155)), Pearson ([1914](https://doi.org/10.1093/biomet/10.1.85)) or Plackett ([1983](https://doi.org/10.2307/1402731)), for the *F-distribution* by Fisher ([1924](https://repository.rothamsted.ac.uk/item/8w2q9/on-a-distribution-yielding-the-error-functions-of-several-well-known-statistics)) see Snedecor ([1934](https://doi.org/10.1037/13308-000)) and Scheffé ([1959](https://psycnet.apa.org/record/1961-00074-000)).
 
 Statistical *power* $1-\beta$ and *effect size* $\epsilon$  (Cohen, [1977](https://doi.org/10.1016/C2013-0-10517-X), [1992](https://doi.org/10.1037/0033-2909.112.1.15)) layed foundations for statistical meta-analysis and methods of estimation statistics, see e.g. Borenstein et al. ([2001](https://books.google.com/books?id=tYg02XZBeNAC&printsec=frontcover&hl=de#v=onepage&q&f=false)) for related software applications. 
 
@@ -57,9 +57,9 @@ Statistical *power* $1-\beta$ and *effect size* $\epsilon$  (Cohen, [1977](https
 - Fisher $Z$ Funktion $F(x=r)$, Fisher ([1915](https://doi.org/10.2307/2331838)).
 - Gamma $F(x)=\Gamma$
 
-*Gamma* $\Gamma$, to solve the problem of *extending* the *factorial* to *non-integer* arguments, was first considered in a letter from Bernoulli to Goldbach (Bernoulli, [1729](https://commons.m.wikimedia.org/wiki/File:DanielBernoulliLetterToGoldbach-1729-10-06.jpg)), introduced later by Euler ([1738](https://scholarlycommons.pacific.edu/euler-works/19/)) - of fundamental definitional importance for the formulation of *approximate probability distribution* functions such as $\chi^2$, $t$ or $F$ (c.f. Meyberg and Vachenauer, [2001](); Cuyt et al., [2008](https://doi.org/10.1007/978-1-4020-6949-9_12); Beals and Wong, [2020](https://doi.org/10.1007/978-3-030-54533-8_10); Little et al., [2022]()).
+*Gamma* $\Gamma$, to solve the problem of *extending* the *factorial* to *non-integer* arguments, was first considered in a letter from Bernoulli to Goldbach (Bernoulli, [1729](https://commons.m.wikimedia.org/wiki/File:DanielBernoulliLetterToGoldbach-1729-10-06.jpg)), introduced later by Euler ([1738](https://scholarlycommons.pacific.edu/euler-works/19/)) - of fundamental definitional importance for the formulation of *approximate probability distribution* functions such as $\chi^2$, $t$ or $F$ (c.f. Meyberg and Vachenauer, [2001](https://doi.org/10.1007/978-3-642-56654-7); Cuyt et al., [2008](https://doi.org/10.1007/978-1-4020-6949-9_12); Beals and Wong, [2020](https://doi.org/10.1007/978-3-030-54533-8_10); Little et al., [2022](https://doi.org/10.1007/978-3-030-90646-7_3)).
 
-See further e.g. Bortz ([1984](https://doi.org/10.1007/978-3-662-00468-5)), Bortz and Weber ([2005](https://doi.org/10.1007/b137571)), Bortz and Schuster ([2010](https://doi.org/10.1007/978-3-642-12770-0)), Döring ([2023](https://doi.org/10.1007/978-3-662-64762-2)), Pascucci ([2024a](), [b]()) and Schrausser ([2024a]()).
+See further e.g. Bortz ([1984](https://doi.org/10.1007/978-3-662-00468-5)), Bortz and Weber ([2005](https://doi.org/10.1007/b137571)), Bortz and Schuster ([2010](https://doi.org/10.1007/978-3-642-12770-0)), Döring ([2023](https://doi.org/10.1007/978-3-662-64762-2)), Pascucci ([2024a](https://doi.org/10.1007/978-3-031-63190-0), [b](https://doi.org/10.1007/978-3-031-63193-1)) and Schrausser ([2024a](https://doi.org/10.31234/osf.io/rvzxa)).
 
 ### References
 
@@ -109,38 +109,38 @@ Gauss, C. F. (1809). *Theoria motvs corporvm coelestivm in sectionibvs conicis 
 
 Gosset, W. S. (1908). The Probable Error of a Mean. *Biometrika 6* (1): 1–25. [https://doi.org/10.2307/2331554](https://doi.org/10.2307/2331554)
 
-Hahn, R. (1970). Mathematics - The Doctrine of Chances or, A Method of Calculating the Probabilities of Events in Play. By Abraham de Moivre. 2nd ed. [1738]. London, F. Cass, 1967. Pp. xiv + 258. £6 6s. *The British Journal for the History of Science 5* (2): 189–90. [https://doi.org/10.1017/S0007087400010967]()
+Hahn, R. (1970). Mathematics - The Doctrine of Chances or, A Method of Calculating the Probabilities of Events in Play. By Abraham de Moivre. 2nd ed. [1738]. London, F. Cass, 1967. Pp. xiv + 258. £6 6s. *The British Journal for the History of Science 5* (2): 189–90. [https://doi.org/10.1017/S0007087400010967](https://doi.org/10.1017/S0007087400010967)
 
-Hald, A. (1990). De Moivre and the Doctrine of Chances, 1718, 1738, and 1756. In *History of Probability and Statistics and Their Applications before 1750*, edited by Hald, A., 397–424. New York: Wiley Series in Probability; Statistics, Wiley-Interscience. [https://onlinelibrary.wiley.com/doi/book/10.1002/0471725161]()
+Hald, A. (1990). De Moivre and the Doctrine of Chances, 1718, 1738, and 1756. In *History of Probability and Statistics and Their Applications before 1750*, edited by Hald, A., 397–424. New York: Wiley Series in Probability; Statistics, Wiley-Interscience. [https://onlinelibrary.wiley.com/doi/book/10.1002/0471725161](https://onlinelibrary.wiley.com/doi/book/10.1002/0471725161)
 
-Helmert, F. R. (1876). Ueber Die Wahrscheinlichkeit Der Potenzsummen Der Beobachtungsfehler Und Über Einige Damit Im Zusammenhange Stehende Fragen. *Zeitschrift Für Mathematik Und Physik 21*: 192–219. [https://gdz.sub.uni-goettingen.de/id/PPN599415665_0021]()
+Helmert, F. R. (1876). Ueber Die Wahrscheinlichkeit Der Potenzsummen Der Beobachtungsfehler Und Über Einige Damit Im Zusammenhange Stehende Fragen. *Zeitschrift Für Mathematik Und Physik 21*: 192–219. [https://gdz.sub.uni-goettingen.de/id/PPN599415665_0021](https://gdz.sub.uni-goettingen.de/id/PPN599415665_0021)
 
-Little, C. H. C., Teo, K. L., & van Brunt, B. (2022). The Gamma Function. In *An Introduction to Infinite Products*, 131–91. Cham: Springer International Publishing. [https://doi.org/10.1007/978-3-030-90646-7_3]()
+Little, C. H. C., Teo, K. L., & van Brunt, B. (2022). The Gamma Function. In *An Introduction to Infinite Products*, 131–91. Cham: Springer International Publishing. [https://doi.org/10.1007/978-3-030-90646-7_3](https://doi.org/10.1007/978-3-030-90646-7_3)
 
-Lüroth, J. (1876). Vergleichung von Zwei Werthen Des Wahrscheinlichen Fehlers. *Astronomische Nachrichten 87* (14): 209–20. [https://doi.org/10.1002/asna.18760871402]()
+Lüroth, J. (1876). Vergleichung von Zwei Werthen Des Wahrscheinlichen Fehlers. *Astronomische Nachrichten 87* (14): 209–20. [https://doi.org/10.1002/asna.18760871402](https://doi.org/10.1002/asna.18760871402)
 
-Meyberg, K., & Vachenauer, P. (2001). *Höhere Mathematik 1: Differential- und Integralrechnung Vektor- und Matrizenrechnung*. Berlin, Heidelberg: Springer Berlin Heidelberg. [https://doi.org/10.1007/978-3-642-56654-7]()
+Meyberg, K., & Vachenauer, P. (2001). *Höhere Mathematik 1: Differential- und Integralrechnung Vektor- und Matrizenrechnung*. Berlin, Heidelberg: Springer Berlin Heidelberg. [https://doi.org/10.1007/978-3-642-56654-7](https://doi.org/10.1007/978-3-642-56654-7)
 
-Pascucci, A. (2024a). *Probability Theory I. Random Variables and Distributions*. 1st ed. UNITEXT. Cham: Springer. [https://doi.org/10.1007/978-3-031-63190-0]()
+Pascucci, A. (2024a). *Probability Theory I. Random Variables and Distributions*. 1st ed. UNITEXT. Cham: Springer. [https://doi.org/10.1007/978-3-031-63190-0](https://doi.org/10.1007/978-3-031-63190-0)
 
-———. (2024b). *Probability Theory II. Stochastic Calculus*. 1st ed. UNITEXT. Cham: Springer. [https://doi.org/10.1007/978-3-031-63193-1]()
+———. (2024b). *Probability Theory II. Stochastic Calculus*. 1st ed. UNITEXT. Cham: Springer. [https://doi.org/10.1007/978-3-031-63193-1](https://doi.org/10.1007/978-3-031-63193-1)
 
-Pearson, K. (1895). Contributions to the Mathematical Theory of Evolution. II. Skew Variation in Homogeneous Material. *Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 186*: 343–414. [https://doi.org/10.1098/rsta.1895.0010]()
+Pearson, K. (1895). Contributions to the Mathematical Theory of Evolution. II. Skew Variation in Homogeneous Material. *Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 186*: 343–414. [https://doi.org/10.1098/rsta.1895.0010](https://doi.org/10.1098/rsta.1895.0010)
 
-———. (1900). X. On the criterion that a given system of deviations from the probable in the case of a correlated system of variables is such that it can be reasonably supposed to have arisen from random sampling. *The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science 50* (302): 157–75. [https://doi.org/10.1080/14786440009463897]()
+———. (1900). X. On the criterion that a given system of deviations from the probable in the case of a correlated system of variables is such that it can be reasonably supposed to have arisen from random sampling. *The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science 50* (302): 157–75. [https://doi.org/10.1080/14786440009463897](https://doi.org/10.1080/14786440009463897)
 
-———. (1914). On the Probability That Two Independent Distributions of Frequency Are Really Samples of the Same Population, with Special Reference to Recent Work on the Identity of Trypanosome Strains. *Biometrika 10*: 85–154. [https://doi.org/10.1093/biomet/10.1.85]()
+———. (1914). On the Probability That Two Independent Distributions of Frequency Are Really Samples of the Same Population, with Special Reference to Recent Work on the Identity of Trypanosome Strains. *Biometrika 10*: 85–154. [https://doi.org/10.1093/biomet/10.1.85](https://doi.org/10.1093/biomet/10.1.85)
 
-Plackett, R. L. (1983). Karl Pearson and the Chi-Squared Test. *International Statistical Review / Revue Internationale de Statistique 51* (1): 59–72. [https://doi.org/10.2307/1402731]()
+Plackett, R. L. (1983). Karl Pearson and the Chi-Squared Test. *International Statistical Review / Revue Internationale de Statistique 51* (1): 59–72. [https://doi.org/10.2307/1402731](https://doi.org/10.2307/1402731)
 
-Scheffé, H. (1959). *The Analysis of Variance*. New York: Wiley. [https://psycnet.apa.org/record/1961-00074-000]()
+Scheffé, H. (1959). *The Analysis of Variance*. New York: Wiley. [https://psycnet.apa.org/record/1961-00074-000](https://psycnet.apa.org/record/1961-00074-000)
 
-Schneider, I. (2005a). Chapter 6 - Jakob Bernoulli, Ars conjectandi (1713). In *Landmark Writings in Western Mathematics 1640-1940*, edited by Grattan-Guinness, I., Cooke, R., Corry, L., Crépel, P., & Guicciardini, N., 88–104. Amsterdam: Elsevier Science. [https://doi.org/10.1016/B978-044450871-3/50087-5]()
+Schneider, I. (2005a). Chapter 6 - Jakob Bernoulli, Ars conjectandi (1713). In *Landmark Writings in Western Mathematics 1640-1940*, edited by Grattan-Guinness, I., Cooke, R., Corry, L., Crépel, P., & Guicciardini, N., 88–104. Amsterdam: Elsevier Science. [https://doi.org/10.1016/B978-044450871-3/50087-5](https://doi.org/10.1016/B978-044450871-3/50087-5)
 
-———. (2005b). Chapter 7 -Abraham De Moivre, The Doctrine of Chances (1718, 1738, 1756). In *Landmark Writings in Western Mathematics 1640-1940*, edited by Grattan-Guinness, I., Cooke, R., Corry, L., Crépel, P., & Guicciardini, N., 105–20. Amsterdam: Elsevier Science. [https://doi.org/10.1016/B978-044450871-3/50087-5]()
+———. (2005b). Chapter 7 -Abraham De Moivre, The Doctrine of Chances (1718, 1738, 1756). In *Landmark Writings in Western Mathematics 1640-1940*, edited by Grattan-Guinness, I., Cooke, R., Corry, L., Crépel, P., & Guicciardini, N., 105–20. Amsterdam: Elsevier Science. [https://doi.org/10.1016/B978-044450871-3/50087-5](https://doi.org/10.1016/B978-044450871-3/50087-5)
 
-Schrausser, D. G. (2024a). *Handbook: Distribution Functions (Verteilungs Funktionen)*. PsyArXiv. [https://doi.org/10.31234/osf.io/rvzxa]()
+Schrausser, D. G. (2024a). *Handbook: Distribution Functions (Verteilungs Funktionen)*. PsyArXiv. [https://doi.org/10.31234/osf.io/rvzxa](https://doi.org/10.31234/osf.io/rvzxa)
 
-———. (2024b). *Schrausser/ConsoleApp_DistributionFunctions: Console applicationes for distribution functions* (version v1.5.0). Zenodo. [https://doi.org/10.5281/zenodo.7664141]()
+———. (2024b). *Schrausser/ConsoleApp_DistributionFunctions: Console applicationes for distribution functions* (version v1.5.0). Zenodo. [https://doi.org/10.5281/zenodo.7664141](https://doi.org/10.5281/zenodo.7664141)
 
-Snedecor, G. W. (1934). *Calculation and Interpretation of Analysis of Variance and Covariance*. Ames, Iowa: Collegiate Press. [https://doi.org/10.1037/13308-000]()
+Snedecor, G. W. (1934). *Calculation and Interpretation of Analysis of Variance and Covariance*. Ames, Iowa: Collegiate Press. [https://doi.org/10.1037/13308-000](https://doi.org/10.1037/13308-000)
