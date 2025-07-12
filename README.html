@@ -1,6 +1,7 @@
 <html> 
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="Author" content="Dietmar Gerald Schrausser">
 
 <title>
@@ -8,51 +9,148 @@ FunktionWin/README
 </title>
 
 </head> 
-<body>
+<body style="font-family:calibri;font-size:85%;background-color:#efebe9;color:#37474f">
 
 <style></style>
 <h1 id="funktionwin">FunktionWin</h1>
-<p><img src="FunktionWin.png" alt="figure.\label{pic0}" /></p>
+
+<p>
+<img src="FunktionWin.png" alt="figure.\label{pic0}" />
+</p>
+
 <p>Graphical MS Windows user interface for <code>ConsoleApp_DistributionFunctions</code> (Schrausser, <a href="https://doi.org/10.5281/zenodo.7664141">2024b</a>).</p>
-<p>The following functions were realized:</p>
+<p>The following functions were realized, German notation:</p>
 <h3 id="wahrscheinlichkeits-verteilung-probability-distribution">Wahrscheinlichkeits-Verteilung (probability distribution)</h3>
 <ul>
-<li>Binomial-Funktion $f(X=k|n)$</li>
-<li>Poisson-Funktion $f(X=k|n,p)$</li>
-<li>Geometrische-Funktion $f(X=r|p)$</li>
-<li>Hypergeometrische-Funktion $f(X=k|n,K,N)$</li>
-<li>Exakt <em>binomialer</em> 2-Felder Test $f(X=b|b,c)$</li>
-<li>Exakt <em>hypergeometrischer</em> 4-Felder Test $f(X=a|a,b,c,d)$, <em>Fisher Exact</em> (Fisher, <a href="https://doi.org/10.2307/2340521">1922</a>, <a href="https://www.worldcat.org/de/title/statistical-methods-for-research-workers/oclc/312138">1954</a>; s. Agresti, <a href="https://doi.org/10.1214/ss/1177011454">1992</a>).</li>
+<li>Binomial-Funktion <math display="inline"><mi>f</mi><mo stretchy="false">(</mo><mi>X</mi><mo>=</mo><mi>k</mi><mrow data-mjx-texclass="ORD"><mo stretchy="false">|</mo></mrow><mi>n</mi><mo stretchy="false">)</mo>
+</math></li>
+<li>Poisson-Funktion <math display="inline"><mi>f</mi><mo stretchy="false">(</mo><mi>X</mi><mo>=</mo><mi>k</mi><mrow data-mjx-texclass="ORD"><mo stretchy="false">|</mo></mrow><mi>n</mi><mo>,</mo><mi>p</mi><mo stretchy="false">)</mo>
+</math></li>
+<li>Geometrische-Funktion <math display="inline"><mi>f</mi><mo stretchy="false">(</mo><mi>X</mi><mo>=</mo><mi>r</mi><mrow data-mjx-texclass="ORD"><mo stretchy="false">|</mo></mrow><mi>p</mi><mo stretchy="false">)</mo>
+</math></li>
+<li>Hypergeometrische-Funktion <math display="inline"><mi>f</mi><mo stretchy="false">(</mo><mi>X</mi><mo>=</mo><mi>k</mi><mrow data-mjx-texclass="ORD"><mo stretchy="false">|</mo></mrow><mi>n</mi><mo>,</mo><mi>K</mi><mo>,</mo><mi>N</mi><mo stretchy="false">)</mo>
+</math></li>
+<li>Exakt <em>binomialer</em> 2-Felder Test <math display="inline"><mi>f</mi><mo stretchy="false">(</mo><mi>X</mi><mo>=</mo><mi>b</mi><mrow data-mjx-texclass="ORD"><mo stretchy="false">|</mo></mrow><mi>b</mi><mo>,</mo><mi>c</mi><mo stretchy="false">)</mo>
+</math></li>
+<li>Exakt <em>hypergeometrischer</em> 4-Felder Test <math display="inline"><mi>f</mi><mo stretchy="false">(</mo><mi>X</mi><mo>=</mo><mi>a</mi><mrow data-mjx-texclass="ORD"><mo stretchy="false">|</mo></mrow><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo>,</mo><mi>d</mi><mo stretchy="false">)</mo>
+</math>, <em>Fisher Exact</em> (Fisher, <a href="https://doi.org/10.2307/2340521">1922</a>, <a href="https://www.worldcat.org/de/title/statistical-methods-for-research-workers/oclc/312138">1954</a>; s. Agresti, <a href="https://doi.org/10.1214/ss/1177011454">1992</a>).</li>
 </ul>
-<h4 id="screenshots-probability-distribution">Screenshots probability distribution</h4>
-<p><img src="pic1.jpg" alt="figure.\label{pic1}" /></p>
-<p><img src="pic2.jpg" alt="figure.\label{pic2}" /></p>
-<p><img src="pic3.jpg" alt="figure.\label{pic3}" /></p>
-<p><img src="pic4.jpg" alt="figure.\label{pic4}" /></p>
-<p><img src="pic5.jpg" alt="figure.\label{pic5}" /></p>
+<h4 id="screenshots-probability-distribution">Screenshots probability distribution (Fig. 1 - Fig. 5):</h4>
+
+<p>
+<figure>
+<figcaption>Figure 1.</figcaption>
+<img src="pic1.jpg" alt="figure.\label{pic1}" />
+</figure>
+</p>
+
+<p>
+<figure>
+<figcaption>Figure 2.</figcaption>
+<img src="pic2.jpg" alt="figure.\label{pic2}" />
+</figure>
+</p>
+
+<p>
+<figure>
+<figcaption>Figure 3.</figcaption>
+<img src="pic3.jpg" alt="figure.\label{pic3}" />
+</figure>
+</p>
+
+<p>
+<figure>
+<figcaption>Figure 4.</figcaption>
+<img src="pic4.jpg" alt="figure.\label{pic4}" />
+</figure>
+</p>
+
+<p>
+<figure>
+<figcaption>Figure 5.</figcaption>
+<img src="pic5.jpg" alt="figure.\label{pic5}" />
+</figure>
+</p>
+
 <p>The fundamental <em>binomial distribution</em> was derived by Bernoulli (<a href="https://www.e-rara.ch/zut/doi/10.3931/e-rara-9001">1713</a>), s. Schneider (<a href="https://doi.org/10.1016/B978-044450871-3/50087-5">2005a</a>) and above all de Moivre (<a href="https://doi.org/10.1098/rstl.1710.0018">1711</a>, <a href="https://books.google.com/books?id=3EPac6QpbuMC">1718</a>) with the discovery of the first instance of central limit theorem, to <em>approximate</em> the <em>binomial</em> distribution with the <em>normal</em> distribution, further developed by Gauss (<a href="https://archive.org/details/theoriamotuscor00gausgoog/page/n1/mode/1up">1809</a>, <a href="https://doi.org/10.3931/e-rara-2857">1823</a>), see Hahn (<a href="https://doi.org/10.1017/S0007087400010967">1970</a>), Hald (<a href="https://onlinelibrary.wiley.com/doi/book/10.1002/0471725161">1990</a>) or Schneider (<a href="https://doi.org/10.1016/B978-044450871-3/50087-5">2005b</a>).</p>
-<h3 id="theta-verteilung-theta-characteristic-value-or-theta-distribution">Theta-Verteilung $\theta$ (characteristic value or $\theta$ distribution)</h3>
+<h3 id="theta-verteilung-theta-characteristic-value-or-theta-distribution">Theta-Verteilung <math display="inline">
+<mi>&theta;</mi>
+</math> (characteristic value or <math display="inline">
+<mi>&theta;</mi>
+</math> distribution)</h3>
 <ul>
-<li>$z$-Dichte Funktion $f(x=z)$</li>
-<li>$z$-Funktion $F(x=z)$</li>
-<li>$t$-Funktion $F(x=t)$</li>
-<li>$\chi$²- Funktion $F(x=\chi²)$</li>
-<li>$F$-Funktion $F(x=F)$</li>
-<li>Effekt-Stärke $\epsilon$, Cohen (<a href="https://doi.org/10.1016/C2013-0-10517-X">1977</a>).</li>
+<li><math display="inline">
+<mi>z</mi>
+</math>-Dichte Funktion <math display="inline"><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo>=</mo><mi>z</mi><mo stretchy="false">)</mo>
+</math></li>
+<li><math display="inline">
+<mi>z</mi>
+</math>-Funktion <math display="inline"><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo>=</mo><mi>z</mi><mo stretchy="false">)</mo>
+</math></li>
+<li><math display="inline">
+<mi>t</mi>
+</math>-Funktion <math display="inline"><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo>=</mo><mi>t</mi><mo stretchy="false">)</mo>
+</math></li>
+<li><math display="inline"><msup><mi>&chi;</mi><mn>2</mn></msup>
+</math>- Funktion <math display="inline"><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo>=</mo><msup><mi>&chi;</mi><mn>2</mn></msup><mo stretchy="false">)</mo>
+</math></li>
+<li><math display="inline">
+<mi>F</mi>
+</math>-Funktion <math display="inline"><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo>=</mo><mi>F</mi><mo stretchy="false">)</mo>
+</math></li>
+<li>Effekt-Stärke <math display="inline">
+<mi>&epsilon;</mi>
+</math>, Cohen (<a href="https://doi.org/10.1016/C2013-0-10517-X">1977</a>).</li>
 </ul>
-<h4 id="screenshots-epsilon">Screenshots $\epsilon$</h4>
-<p><img src="pic6.jpg" alt="figure.\label{pic6}" /></p>
-<p><img src="pic7.jpg" alt="figure.\label{pic7}" /></p>
-<p>The $t$-<em>distribution</em> was first derived by Lüroth (<a href="https://doi.org/10.1002/asna.18760871402">1876</a>), later in a more general form defined as <em>Pearson Type IV</em> (Pearson, <a href="https://doi.org/10.1098/rsta.1895.0010">1895</a>), commonly known as <em>Student's</em> $t$-<em>distribution</em>, from William Sealy Gosset (<a href="https://doi.org/10.2307/2331554">1908</a>).</p>
-<p>Helmert (<a href="https://gdz.sub.uni-goettingen.de/id/PPN599415665_0021">1876</a>) first described the $\chi^2$-<em>distribution</em>, independently rediscovered by Pearson (<a href="https://doi.org/10.1080/14786440009463897">1900</a>), c.f. also Elderton (<a href="https://doi.org/10.1093/biomet/1.2.155">1902</a>), Pearson (<a href="https://doi.org/10.1093/biomet/10.1.85">1914</a>) or Plackett (<a href="https://doi.org/10.2307/1402731">1983</a>), for the <em>F-distribution</em> by Fisher (<a href="https://repository.rothamsted.ac.uk/item/8w2q9/on-a-distribution-yielding-the-error-functions-of-several-well-known-statistics">1924</a>) see Snedecor (<a href="https://doi.org/10.1037/13308-000">1934</a>) and Scheffé (<a href="https://psycnet.apa.org/record/1961-00074-000">1959</a>).</p>
-<p>Statistical <em>power</em> $1-\beta$ and <em>effect size</em> $\epsilon$  (Cohen, <a href="https://doi.org/10.1016/C2013-0-10517-X">1977</a>, <a href="https://doi.org/10.1037/0033-2909.112.1.15">1992</a>) layed foundations for statistical meta-analysis and methods of estimation statistics, see e.g. Borenstein et al. (<a href="https://books.google.com/books?id=tYg02XZBeNAC&amp;printsec=frontcover&amp;hl=de#v=onepage&amp;q&amp;f=false">2001</a>) for related software applications.</p>
+<h4 id="screenshots-epsilon">Screenshots <math display="inline">
+<mi>&epsilon;</mi>
+</math> (Fig. 6, Fig. 7):</h4>
+
+<p>
+<figure>
+<figcaption>Figure 6.</figcaption>
+<img src="pic6.jpg" alt="figure.\label{pic6}" />
+</figure>
+</p>
+
+<p>
+<figure>
+<figcaption>Figure 7.</figcaption>
+<img src="pic7.jpg" alt="figure.\label{pic7}" />
+</figure>
+</p>
+
+<p>The <math display="inline">
+<mi>t</mi>
+</math>-<em>distribution</em> was first derived by Lüroth (<a href="https://doi.org/10.1002/asna.18760871402">1876</a>), later in a more general form defined as <em>Pearson Type IV</em> (Pearson, <a href="https://doi.org/10.1098/rsta.1895.0010">1895</a>), commonly known as <em>Student's</em> <math display="inline">
+<mi>t</mi>
+</math>-<em>distribution</em>, from William Sealy Gosset (<a href="https://doi.org/10.2307/2331554">1908</a>).</p>
+<p>Helmert (<a href="https://gdz.sub.uni-goettingen.de/id/PPN599415665_0021">1876</a>) first described the <math display="inline"><msup><mi>&chi;</mi><mn>2</mn></msup>
+</math>-<em>distribution</em>, independently rediscovered by Pearson (<a href="https://doi.org/10.1080/14786440009463897">1900</a>), c.f. also Elderton (<a href="https://doi.org/10.1093/biomet/1.2.155">1902</a>), Pearson (<a href="https://doi.org/10.1093/biomet/10.1.85">1914</a>) or Plackett (<a href="https://doi.org/10.2307/1402731">1983</a>), for the <em>F-distribution</em> by Fisher (<a href="https://repository.rothamsted.ac.uk/item/8w2q9/on-a-distribution-yielding-the-error-functions-of-several-well-known-statistics">1924</a>) see Snedecor (<a href="https://doi.org/10.1037/13308-000">1934</a>) and Scheffé (<a href="https://psycnet.apa.org/record/1961-00074-000">1959</a>).</p>
+<p>Statistical <em>power</em> <math display="inline">
+<mi>1</mi><mi>&minus;</mi><mi>&beta;</mi>
+</math> and <em>effect size</em> <math display="inline">
+<mi>&epsilon;</mi>
+</math>  (Cohen, <a href="https://doi.org/10.1016/C2013-0-10517-X">1977</a>, <a href="https://doi.org/10.1037/0033-2909.112.1.15">1992</a>) layed foundations for statistical meta-analysis and methods of estimation statistics, see e.g. Borenstein et al. (<a href="https://books.google.com/books?id=tYg02XZBeNAC&amp;printsec=frontcover&amp;hl=de#v=onepage&amp;q&amp;f=false">2001</a>) for related software applications.</p>
 <h3 id="transformationen-transformation-functions">Transformationen (transformation functions)</h3>
 <ul>
-<li>Fisher $Z$ Funktion $F(x=r)$, Fisher (<a href="https://doi.org/10.2307/2331838">1915</a>).</li>
-<li>Gamma $F(x)=\Gamma$</li>
+<li>Fisher <math display="inline">
+<mi>Z</mi>
+</math> Funktion <math display="inline"><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo>=</mo><mi>r</mi><mo stretchy="false">)</mo>
+</math>, Fisher (<a href="https://doi.org/10.2307/2331838">1915</a>).</li>
+<li>Gamma <math display="inline"><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo>=</mo><mi>&Gamma;</mi><mo stretchy="false">)</mo>
+</math></li>
 </ul>
-<p><em>Gamma</em> $\Gamma$, to solve the problem of <em>extending</em> the <em>factorial</em> to <em>non-integer</em> arguments, was first considered in a letter from Bernoulli to Goldbach (Bernoulli, <a href="https://commons.m.wikimedia.org/wiki/File:DanielBernoulliLetterToGoldbach-1729-10-06.jpg">1729</a>), introduced later by Euler (<a href="https://scholarlycommons.pacific.edu/euler-works/19/">1738</a>) - of fundamental definitional importance for the formulation of <em>approximate probability distribution</em> functions such as $\chi^2$, $t$ or $F$ (c.f. Meyberg and Vachenauer, <a href="https://doi.org/10.1007/978-3-642-56654-7">2001</a>; Cuyt et al., <a href="https://doi.org/10.1007/978-1-4020-6949-9_12">2008</a>; Beals and Wong, <a href="https://doi.org/10.1007/978-3-030-54533-8_10">2020</a>; Little et al., <a href="https://doi.org/10.1007/978-3-030-90646-7_3">2022</a>).</p>
+<p><em>Gamma</em> <math display="inline">
+<mi>&Gamma;</mi>
+</math>, to solve the problem of <em>extending</em> the <em>factorial</em> to <em>non-integer</em> arguments, was first considered in a letter from Bernoulli to Goldbach (Bernoulli, <a href="https://commons.m.wikimedia.org/wiki/File:DanielBernoulliLetterToGoldbach-1729-10-06.jpg">1729</a>), introduced later by Euler (<a href="https://scholarlycommons.pacific.edu/euler-works/19/">1738</a>) - of fundamental definitional importance for the formulation of <em>approximate probability distribution</em> functions such as <math display="inline"><msup><mi>&chi;</mi><mn>2</mn></msup>
+</math>, <math display="inline">
+<mi>t</mi>
+</math> or <math display="inline">
+<mi>F</mi>
+</math> (c.f. Meyberg and Vachenauer, <a href="https://doi.org/10.1007/978-3-642-56654-7">2001</a>; Cuyt et al., <a href="https://doi.org/10.1007/978-1-4020-6949-9_12">2008</a>; Beals and Wong, <a href="https://doi.org/10.1007/978-3-030-54533-8_10">2020</a>; Little et al., <a href="https://doi.org/10.1007/978-3-030-90646-7_3">2022</a>).</p>
 <p>See further e.g. Bortz (<a href="https://doi.org/10.1007/978-3-662-00468-5">1984</a>), Bortz and Weber (<a href="https://doi.org/10.1007/b137571">2005</a>), Bortz and Schuster (<a href="https://doi.org/10.1007/978-3-642-12770-0">2010</a>), Döring (<a href="https://doi.org/10.1007/978-3-662-64762-2">2023</a>), Pascucci (<a href="https://doi.org/10.1007/978-3-031-63190-0">2024a</a>, <a href="https://doi.org/10.1007/978-3-031-63193-1">b</a>) and Schrausser (<a href="https://doi.org/10.31234/osf.io/rvzxa">2024a</a>).</p>
+<br>
 <h3 id="references">References</h3>
 <p>Agresti, A. (1992). A Survey of Exact Inference for Contingency Tables. <em>Statistical Science 7</em> (1): 131–53. <a href="https://doi.org/10.1214/ss/1177011454">https://doi.org/10.1214/ss/1177011454</a></p>
 <p>Beals, R., &amp; Wong, R. S. C. (2020). The Gamma and Beta Functions. In <em>Explorations in Complex Functions</em>, 141–53. Cham: Springer International Publishing. <a href="https://doi.org/10.1007/978-3-030-54533-8_10">https://doi.org/10.1007/978-3-030-54533-8_10</a></p>
@@ -107,7 +205,7 @@ FunktionWin
 href="https://orcid.org/0000-0002-4924-8280">
 Dietmar Gerald Schrausser
 </a>
-<p>07.07.2025</p>
+<p>13.07.2025</p>
 </font></font>
 </center>
 </blockquote>	
