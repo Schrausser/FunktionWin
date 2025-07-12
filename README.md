@@ -37,7 +37,7 @@ The fundamental *binomial distribution* was derived by Bernoulli ([1713](https:/
 - $z$-Dichte Funktion $f(x=z)$  
 - $z$-Funktion $F(x=z)$  
 - $t$-Funktion $F(x=t)$  
-- $\chi$²- Funktion $F(x=\chi²)$  
+- $\chi^2$- Funktion $F(x=\chi²)$  
 - $F$-Funktion $F(x=F)$   
 - Effekt-Stärke $\epsilon$, Cohen ([1977](https://doi.org/10.1016/C2013-0-10517-X)). 
 
