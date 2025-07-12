@@ -3,7 +3,7 @@
 
 Graphical MS Windows user interface for `ConsoleApp_DistributionFunctions` (Schrausser, [2024b](https://doi.org/10.5281/zenodo.7664141)).  
 
-The following functions were realized:
+The following functions were realized, German notation:
 
 ### Wahrscheinlichkeits-Verteilung (probability distribution)
 
@@ -14,20 +14,21 @@ The following functions were realized:
 - Exakt *binomialer* 2-Felder Test $f(X=b|b,c)$  
 - Exakt *hypergeometrischer* 4-Felder Test $f(X=a|a,b,c,d)$, *Fisher Exact* (Fisher, [1922](https://doi.org/10.2307/2340521), [1954](https://www.worldcat.org/de/title/statistical-methods-for-research-workers/oclc/312138); s. Agresti, [1992](https://doi.org/10.1214/ss/1177011454)).  
 
-#### Screenshots probability distribution
+#### Screenshots probability distribution (Fig. 1 - Fig. 5):
 
+Figure 1.
 ![figure.\label{pic1}](pic1.jpg)
 
-
+Figure 2.
 ![figure.\label{pic2}](pic2.jpg)
 
-
+Figure 3.
 ![figure.\label{pic3}](pic3.jpg)
 
-
+Figure 4.
 ![figure.\label{pic4}](pic4.jpg)
 
-
+Figure 5.
 ![figure.\label{pic5}](pic5.jpg)
 
 The fundamental *binomial distribution* was derived by Bernoulli ([1713](https://www.e-rara.ch/zut/doi/10.3931/e-rara-9001)), s. Schneider ([2005a](https://doi.org/10.1016/B978-044450871-3/50087-5)) and above all de Moivre ([1711](https://doi.org/10.1098/rstl.1710.0018), [1718](https://books.google.com/books?id=3EPac6QpbuMC)) with the discovery of the first instance of central limit theorem, to *approximate* the *binomial* distribution with the *normal* distribution, further developed by Gauss ([1809](https://archive.org/details/theoriamotuscor00gausgoog/page/n1/mode/1up), [1823](https://doi.org/10.3931/e-rara-2857)), see Hahn ([1970](https://doi.org/10.1017/S0007087400010967)), Hald ([1990](https://onlinelibrary.wiley.com/doi/book/10.1002/0471725161)) or Schneider ([2005b](https://doi.org/10.1016/B978-044450871-3/50087-5)).
@@ -40,11 +41,12 @@ The fundamental *binomial distribution* was derived by Bernoulli ([1713](https:/
 - $F$-Funktion $F(x=F)$   
 - Effekt-Stärke $\epsilon$, Cohen ([1977](https://doi.org/10.1016/C2013-0-10517-X)). 
 
-#### Screenshots $\epsilon$
+#### Screenshots $\epsilon$ (Fig. 6, Fig. 7):
 
+Figure 6.
 ![figure.\label{pic6}](pic6.jpg)
 
-
+Figure 7.
 ![figure.\label{pic7}](pic7.jpg)
 
 The $t$-*distribution* was first derived by Lüroth ([1876](https://doi.org/10.1002/asna.18760871402)), later in a more general form defined as *Pearson Type IV* (Pearson, [1895](https://doi.org/10.1098/rsta.1895.0010)), commonly known as *Student's* $t$-*distribution*, from William Sealy Gosset ([1908](https://doi.org/10.2307/2331554)).
