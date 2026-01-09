@@ -143,6 +143,6 @@ Schneider, I. (2005a). Chapter 6 - Jakob Bernoulli, Ars conjectandi (1713). In 
 
 Schrausser, D. G. (2024a). *Handbook: Distribution Functions (Verteilungs Funktionen)*. PsyArXiv. [https://doi.org/10.31234/osf.io/rvzxa](https://doi.org/10.31234/osf.io/rvzxa)
 
-———. (2024b). *Schrausser/ConsoleApp_DistributionFunctions: Console applicationes for distribution functions* (version v1.5.0). Zenodo. [https://doi.org/10.5281/zenodo.7664141](https://doi.org/10.5281/zenodo.7664141)
+———. (2024b). *Schrausser/ConsoleApp_DistributionFunctions: Console applications for distribution functions* (version v1.5.0). Zenodo. [https://doi.org/10.5281/zenodo.7664141](https://doi.org/10.5281/zenodo.7664141)
 
 Snedecor, G. W. (1934). *Calculation and Interpretation of Analysis of Variance and Covariance*. Ames, Iowa: Collegiate Press. [https://doi.org/10.1037/13308-000](https://doi.org/10.1037/13308-000)
